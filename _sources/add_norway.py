@@ -151,7 +151,7 @@ nice_grid()
 print(df.head())
 print(df.tail())
 
-
 # import sys
 # sys.exit()
 df.to_csv("../chorogrid/databases/norway_municilalities.csv")
+print("saved")
