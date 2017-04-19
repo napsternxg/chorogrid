@@ -266,6 +266,9 @@ class Chorogrid(object):
                      'stroke-linecap': 'butt',
                      'stroke-linejoin': 'miter',
                      'stroke-opacity': 1}
+        # update the dict if anything new
+        font_dict = self._update_default_dict(font_dict, 'font_dict', kwargs)
+        # end update
         self.legend_height = height
         colors = colors[::-1]
         labels = labels[::-1]
