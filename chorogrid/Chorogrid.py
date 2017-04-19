@@ -20,7 +20,7 @@ class Chorogrid(object):
             id_column: the name of the column in csv_path containing ids
                        if there is not a 1:1 map between the ids object
                        and the contents of id_column, you will be warned
-            
+
         Methods (introspect to see arguments)
            set_colors: pass a new list of colors to replace the one
                        used when the class was instantiated
@@ -29,17 +29,17 @@ class Chorogrid(object):
            add_svg: add some custom svg code. This must be called
                       after the draw_... method, because it needs to know
                       the margins.
-           
+
            draw_squares: draw a square grid choropleth
            draw_hex: draw a hex-based choropleth
            draw_multihex: draw a multiple-hex-based choropleth
            draw_multisquare: draw a multiple-square-based choropleth
            draw_map: draw a regular, geographic choropleth
-           
+
            done: save and/or display the result in IPython notebook
            done_with_overlay: overlay two Chorogrid objects
     """
-    def __init__(self, csv_path, ids, colors, id_column='abbrev'):
+    def __init__(self, csv_path, ids, colors, id_column='abbrev', lable_column=None):
         self.df = pd.read_csv(csv_path)
         comparison_set = set(self.df[id_column])
         invalid = set(ids).difference(comparison_set)
@@ -60,6 +60,10 @@ class Chorogrid(object):
         self.additional_svg = []
         self.additional_offset = [0, 0]
         self.legend_params = None
+        if lable_column:
+            self.lable_column = lable_column
+        else:
+            self.lable_column = self.id_column
 
     #methods called from within methods, beginning with underscore
     def _update_default_dict(self, default_dict, dict_name, kwargs):
@@ -81,14 +85,18 @@ class Chorogrid(object):
             to_return.append(k + ':' + str(v) + ';')
         to_return[-1] = to_return[-1][:-1]
         return ''.join(to_return)
-    def _make_svg_top(self, width, height):
+    def _make_svg_top(self, width, height, preserveAspectRatio=None, viewbox=None):
+        if not viewbox:
+            viewbox = [0, 0, width, height]
         """Writes first part of svg"""
-        self.svg = ET.Element('svg', xmlns="http://www.w3.org/2000/svg", 
-            version="1.1", height=str(height), width=str(width))
+        self.svg = ET.Element('svg', xmlns="http://www.w3.org/2000/svg",
+            version="1.1", height=str(height), width=str(width),
+        viewBox="{0} {1} {2} {3}".format(viewbox[0], viewbox[1], viewbox[2], viewbox[3]),
+        preserveAspectRatio="{0}".format(preserveAspectRatio))
     def _draw_title(self, x, y):
         if len(self.title) > 0:
             font_style = self._dict2style(self.title_font_dict)
-            _ = ET.SubElement(self.svg, "text", id="title", x=str(x), 
+            _ = ET.SubElement(self.svg, "text", id="title", x=str(x),
                               y=str(y), style=font_style)
             _.text = self.title
     def _determine_font_colors(self, kwargs):
@@ -121,8 +129,8 @@ class Chorogrid(object):
                                                                 x+ww, y-hh,
                                                                 x, y-hh,
                                                                 x-ww/2, y-hh/2)
-            
-    def _increment_multihex(self, x, y, w, direction):                                        
+
+    def _increment_multihex(self, x, y, w, direction):
         h = w/sqrt(3)
         if direction == 'a':
             return 'L', x+w/2, y-h/2
@@ -157,7 +165,7 @@ class Chorogrid(object):
         result.append('Z')
         return " ".join(result)
 
-    def _increment_multisquare(self, x, y, w, direction):                                        
+    def _increment_multisquare(self, x, y, w, direction):
         if direction == 'a':
             return 'L', x+w, y
         elif direction == 'b':
@@ -194,34 +202,34 @@ class Chorogrid(object):
         """Set a title for the grid
            kwargs:
                 font_dict
-                default = {'font-style': 'normal', 'font-weight': 'normal', 
-                      'font-size': '21px', 'line-height': '125%', 
-                      'text-anchor': 'middle', 'font-family': 'sans-serif', 
-                      'letter-spacing': '0px', 'word-spacing': '0px', 
-                      'fill-opacity': 1, 'stroke': 'none', 
-                      'stroke-width': '1px', 'stroke-linecap': 'butt', 
+                default = {'font-style': 'normal', 'font-weight': 'normal',
+                      'font-size': '21px', 'line-height': '125%',
+                      'text-anchor': 'middle', 'font-family': 'sans-serif',
+                      'letter-spacing': '0px', 'word-spacing': '0px',
+                      'fill-opacity': 1, 'stroke': 'none',
+                      'stroke-width': '1px', 'stroke-linecap': 'butt',
                       'stroke-linejoin': 'miter', 'stroke-opacity': 1,
                       'fill': '#000000'}"""
-        self.title_font_dict = {'font-style': 'normal', 
-                                'font-weight': 'normal', 
-                                'font-size': '21px', 
-                                'line-height': '125%', 
-                                'text-anchor': 'middle', 
-                                'font-family': 'sans-serif', 
-                                'letter-spacing': '0px', 
-                                'word-spacing': '0px', 
-                                'fill-opacity': 1, 
-                                'stroke': 'none', 
-                                'stroke-width': '1px', 
-                                'stroke-linecap': 'butt', 
-                                'stroke-linejoin': 'miter', 
+        self.title_font_dict = {'font-style': 'normal',
+                                'font-weight': 'normal',
+                                'font-size': '21px',
+                                'line-height': '125%',
+                                'text-anchor': 'middle',
+                                'font-family': 'sans-serif',
+                                'letter-spacing': '0px',
+                                'word-spacing': '0px',
+                                'fill-opacity': 1,
+                                'stroke': 'none',
+                                'stroke-width': '1px',
+                                'stroke-linecap': 'butt',
+                                'stroke-linejoin': 'miter',
                                 'stroke-opacity': 1,
                                 'fill': '#000000'}
         self.title_font_dict = self._update_default_dict(
                                self.title_font_dict, 'font_dict', kwargs)
         self.title = title
 
-    def set_legend(self, colors, labels, title=None, width="square", 
+    def set_legend(self, colors, labels, title=None, width="square",
                    height=100, gutter=2, stroke_width=0.5, label_x_offset=2,
                    label_y_offset = 3, stroke_color="#303030", **kwargs):
         """Creates a legend that will be included in any draw method.
@@ -230,33 +238,33 @@ class Chorogrid(object):
           for each label that is not specified, and non-square width
         * height does not include title
         * if len(labels) can be len(colors) or len(colors)+1; the labels
-          will be aside the boxes, or at the interstices/fenceposts, 
+          will be aside the boxes, or at the interstices/fenceposts,
           respectively; alternately, if len(labels) == 2, two fenceposts
           will be assigned
-        
+
         kwarg: font_dict
-            default: {'font-style': 'normal', 'font-weight': 'normal', 
-                      'font-size': '12px', 'line-height': '125%', 
-                      'text-anchor': 'left', 'font-family': 'sans-serif', 
-                      'letter-spacing': '0px', 'word-spacing': '0px', 
-                      'fill-opacity': 1, 'stroke': 'none', 
-                      'stroke-width': '1px', 'stroke-linecap': 'butt', 
+            default: {'font-style': 'normal', 'font-weight': 'normal',
+                      'font-size': '12px', 'line-height': '125%',
+                      'text-anchor': 'left', 'font-family': 'sans-serif',
+                      'letter-spacing': '0px', 'word-spacing': '0px',
+                      'fill-opacity': 1, 'stroke': 'none',
+                      'stroke-width': '1px', 'stroke-linecap': 'butt',
                       'stroke-linejoin': 'miter', 'stroke-opacity': 1,
                       'fill': '#000000'}
         """
-        font_dict = {'font-style': 'normal', 
-                     'font-weight': 'normal', 
-                     'font-size': '12px', 
-                     'line-height': '125%', 
-                     'text-anchor': 'left', 
-                     'font-family': 'sans-serif', 
-                     'letter-spacing': '0px', 
-                     'word-spacing': '0px', 
-                     'fill-opacity': 1, 
-                     'stroke': 'none', 
-                     'stroke-width': '1px', 
-                     'stroke-linecap': 'butt', 
-                     'stroke-linejoin': 'miter', 
+        font_dict = {'font-style': 'normal',
+                     'font-weight': 'normal',
+                     'font-size': '12px',
+                     'line-height': '125%',
+                     'text-anchor': 'left',
+                     'font-family': 'sans-serif',
+                     'letter-spacing': '0px',
+                     'word-spacing': '0px',
+                     'fill-opacity': 1,
+                     'stroke': 'none',
+                     'stroke-width': '1px',
+                     'stroke-linecap': 'butt',
+                     'stroke-linejoin': 'miter',
                      'stroke-opacity': 1}
         self.legend_height = height
         colors = colors[::-1]
@@ -280,7 +288,7 @@ class Chorogrid(object):
         box_offset = (len(labels) - len(colors)) * (box_height + gutter) / 2
         font_style = self._dict2style(font_dict)
         if title is not None and len(title) > 0:
-            y_offset = (int(font_dict['font-size'].replace('px', '')) + 
+            y_offset = (int(font_dict['font-size'].replace('px', '')) +
                         gutter * 0.75) # ugly tweak
         else:
             y_offset = 0
@@ -299,10 +307,10 @@ class Chorogrid(object):
             'label_y_offset': label_y_offset,
             'labels': labels,
             'title': title}
-    
+
     # another function-from-within, I'm placing it here to be right below the set_legend method
     def _apply_legend(self):
-        d = self.legend_params # convenient one-letter-long dict name    
+        d = self.legend_params # convenient one-letter-long dict name
         for i, color in enumerate(d['colors']):
             style_text = ("fill:{0};stroke-width:{1}px;stroke:{2};fill-rule:"
                           "evenodd;stroke-linecap:butt;stroke-linejoin:miter;"
@@ -310,24 +318,24 @@ class Chorogrid(object):
                               d['stroke_width'],
                               d['stroke_color']))
             ET.SubElement(self.legendsvg,
-                          "rect", 
-                          id="legendbox{}".format(i), 
+                          "rect",
+                          id="legendbox{}".format(i),
                           x="0",
-                          y=str(d['y_offset'] + i * (d['box_height'] + 
-                          d['gutter'])), 
+                          y=str(d['y_offset'] + i * (d['box_height'] +
+                          d['gutter'])),
                           height=str(d['box_height']),
-                          width=str(d['width']), 
+                          width=str(d['width']),
                           style=style_text)
         for i, label in enumerate(d['labels']):
-            style_text = d['font_style'] + ";alignment-baseline:middle"       
+            style_text = d['font_style'] + ";alignment-baseline:middle"
             _ = ET.SubElement(self.legendsvg, "text", id="legendlabel{}".format(
                     i), x=str(d['label_x_offset'] + d['width'] + d['gutter']),
                     y=str(d['label_y_offset'] + d['y_offset'] + i * (
-                    d['box_height'] + d['gutter']) + 
+                    d['box_height'] + d['gutter']) +
                     (d['box_height']) / 2), style=style_text)
             _.text = label
-        if d['title'] is not None and len(d['title']) > 0:   
-            _ = ET.SubElement(self.legendsvg, "text", id="legendtitle", x="0", 
+        if d['title'] is not None and len(d['title']) > 0:
+            _ = ET.SubElement(self.legendsvg, "text", id="legendtitle", x="0",
                               y="0", style=d['font_style'])
             _.text = d['title']
 
@@ -339,7 +347,7 @@ class Chorogrid(object):
         text = ("<g transform=\"{}\">".format(translate_text) +
                 text + "</g>")
         self.additional_svg.append(text)
-        
+
     def done_and_overlay(self, other_chorogrid, show=True, save_filename=None):
         """Overlays a second chorogrid object on top of the root object."""
         svgstring = ET.tostring(self.svg).decode('utf-8')
@@ -347,7 +355,7 @@ class Chorogrid(object):
         svgstring = svgstring.replace(">", ">\n")
         svgstring = svgstring.replace("</svg>", "")
         svgstring_overlaid = ET.tostring(other_chorogrid.svg).decode('utf-8')
-        svgstring_overlaid = svgstring_overlaid.replace('</svg>', 
+        svgstring_overlaid = svgstring_overlaid.replace('</svg>',
                                  ''.join(other_chorogrid.additional_svg) + '</svg>')
         svgstring_overlaid = svgstring_overlaid.replace(">", ">\n")
         svgstring_overlaid = re.sub('<svg.+?>', '', svgstring_overlaid)
@@ -359,8 +367,8 @@ class Chorogrid(object):
                 f.write(svgstring)
         if show:
             display(SVG(svgstring))
-            
-    # the .done() method           
+
+    # the .done() method
     def done(self, show=True, save_filename=None):
         """if show == True, displays the svg in IPython notebook. If save_filename
            is specified, saves svg file"""
@@ -374,83 +382,85 @@ class Chorogrid(object):
                 f.write(svgstring)
         if show:
             display(SVG(svgstring))
-   
+
     # the methods to draw square grids, map (traditional choropleth),
     # hex grid, four-hex grid, multi-square grid
-    
-    def draw_squares(self, x_column='square_x', 
+
+    def draw_squares(self, x_column='square_x',
                      y_column='square_y', **kwargs):
-        """ Creates an SVG file based on a square grid, with coordinates from 
+        """ Creates an SVG file based on a square grid, with coordinates from
         the specified columns in csv_path (specified when Chorogrid class
         initialized).
-        
+
         Note on kwarg dicts: defaults will be used for all keys unless
         overridden, i.e. you don't need to state all the key-value pairs.
-        
+
         kwarg: font_dict
-            default: {'font-style': 'normal', 'font-weight': 'normal', 
-                      'font-size': '12px', 'line-height': '125%', 
-                      'text-anchor': 'middle', 'font-family': 'sans-serif', 
-                      'letter-spacing': '0px', 'word-spacing': '0px', 
-                      'fill-opacity': 1, 'stroke': 'none', 
-                      'stroke-width': '1px', 'stroke-linecap': 'butt', 
+            default: {'font-style': 'normal', 'font-weight': 'normal',
+                      'font-size': '12px', 'line-height': '125%',
+                      'text-anchor': 'middle', 'font-family': 'sans-serif',
+                      'letter-spacing': '0px', 'word-spacing': '0px',
+                      'fill-opacity': 1, 'stroke': 'none',
+                      'stroke-width': '1px', 'stroke-linecap': 'butt',
                       'stroke-linejoin': 'miter', 'stroke-opacity': 1,
                       'fill': '#000000'}
-                      
+
         kwarg: spacing_dict
-            default: {'margin_left': 30,  'margin_top': 60,  
-                      'margin_right': 40,  'margin_bottom': 20,  
-                      'cell_width': 40,  'title_y_offset': 30,  
-                      'name_y_offset': 15,  'roundedness': 3,  
-                      'gutter': 1,  'stroke_color': '#ffffff',  
+            default: {'margin_left': 30,  'margin_top': 60,
+                      'margin_right': 40,  'margin_bottom': 20,
+                      'cell_width': 40,  'title_y_offset': 30,
+                      'name_y_offset': 15,  'roundedness': 3,
+                      'gutter': 1,  'stroke_color': '#ffffff',
                       'stroke_width': 0, 'missing_color': '#a0a0a0',
                       'legend_offset': [0, -10]}
-                      
+
         kwarg: font_colors
             default = "#000000"
-            if specified, must be either listlike object of colors 
-            corresponding to ids, a dict of hex colors to font color, or a 
-            string of a single color.             
+            if specified, must be either listlike object of colors
+            corresponding to ids, a dict of hex colors to font color, or a
+            string of a single color.
         """
-        font_dict = {'font-style': 'normal', 'font-weight': 'normal', 
-                      'font-size': '12px', 'line-height': '125%', 
-                      'text-anchor': 'middle', 'font-family': 'sans-serif', 
-                      'letter-spacing': '0px', 'word-spacing': '0px', 
-                      'fill-opacity': 1, 'stroke': 'none', 
-                      'stroke-width': '1px', 'stroke-linecap': 'butt', 
+        font_dict = {'font-style': 'normal', 'font-weight': 'normal',
+                      'font-size': '12px', 'line-height': '125%',
+                      'text-anchor': 'middle', 'font-family': 'sans-serif',
+                      'letter-spacing': '0px', 'word-spacing': '0px',
+                      'fill-opacity': 1, 'stroke': 'none',
+                      'stroke-width': '1px', 'stroke-linecap': 'butt',
                       'stroke-linejoin': 'miter', 'stroke-opacity': 1}
-        spacing_dict = {'margin_left': 30,  'margin_top': 60,  
-                      'margin_right': 80,  'margin_bottom': 20,  
-                      'cell_width': 40,  'title_y_offset': 30,  
-                      'name_y_offset': 15,  'roundedness': 3,  
-                      'gutter': 1,  'stroke_color': '#ffffff',  
+        spacing_dict = {'margin_left': 30,  'margin_top': 60,
+                      'margin_right': 80,  'margin_bottom': 20,
+                      'cell_width': 40,  'title_y_offset': 30,
+                      'name_y_offset': 15,  'roundedness': 3,
+                      'gutter': 1,  'stroke_color': '#ffffff',
                       'missing_color': '#a0a0a0', 'stroke_width': 0,
                       'missing_font_color': '#000000',
                       'legend_offset': [0, -10]}
-       
-        font_dict = self._update_default_dict(font_dict, 'font_dict', kwargs)        
-        spacing_dict = self._update_default_dict(spacing_dict, 
-                                                 'spacing_dict', kwargs) 
+
+        font_dict = self._update_default_dict(font_dict, 'font_dict', kwargs)
+        spacing_dict = self._update_default_dict(spacing_dict,
+                                                 'spacing_dict', kwargs)
         font_colors = self._determine_font_colors(kwargs)
         font_style = self._dict2style(font_dict)
-        total_width = (spacing_dict['margin_left'] + 
-                       (self.df[x_column].max() + 1) * 
-                       spacing_dict['cell_width'] + 
+        total_width = (spacing_dict['margin_left'] +
+                       (self.df[x_column].max() + 1) *
+                       spacing_dict['cell_width'] +
                        self.df[x_column].max() *
-                       spacing_dict['gutter'] + 
+                       spacing_dict['gutter'] +
                        spacing_dict['margin_right'])
-        total_height = (spacing_dict['margin_top'] + 
+        total_height = (spacing_dict['margin_top'] +
                         (self.df[y_column].max() + 1) *
-                        spacing_dict['cell_width'] + 
-                        self.df[x_column].max() * 
-                        spacing_dict['gutter'] + 
+                        spacing_dict['cell_width'] +
+                        self.df[x_column].max() *
+                        spacing_dict['gutter'] +
                         spacing_dict['margin_bottom'])
-        self._make_svg_top(total_width, total_height)
+        self._make_svg_top(total_width, total_height) # <--
         if spacing_dict['roundedness'] > 0:
             roundxy = spacing_dict['roundedness']
         else:
             roundxy = 0
         for i, id_ in enumerate(self.df[self.id_column]):
+            #print("i, id_", i, id_)
+            #print(self.df.loc[self.df[self.id_column] == id_][self.lable_column].item())
             if id_ in self.ids:
                 this_color = self.colors[self.ids.index(id_)]
                 this_font_color = font_colors[self.ids.index(id_)]
@@ -459,11 +469,11 @@ class Chorogrid(object):
                 this_font_color = spacing_dict['missing_font_color']
             across = self.df[x_column].iloc[i]
             down = self.df[y_column].iloc[i]
-            x = (spacing_dict['margin_left'] + 
-                 across * (spacing_dict['cell_width'] + 
+            x = (spacing_dict['margin_left'] +
+                 across * (spacing_dict['cell_width'] +
                  spacing_dict['gutter']))
-            y = (spacing_dict['margin_top'] + 
-                 down * (spacing_dict['cell_width'] + 
+            y = (spacing_dict['margin_top'] +
+                 down * (spacing_dict['cell_width'] +
                  spacing_dict['gutter']))
             style_text = ("stroke:{0};stroke-width:{1};stroke-miterlimit:4;"
                           "stroke-opacity:1;stroke-dasharray:none;fill:"
@@ -471,79 +481,85 @@ class Chorogrid(object):
                                        spacing_dict['stroke_width'],
                                        this_color))
             this_font_style = font_style + ';fill:{}'.format(this_font_color)
-            ET.SubElement(self.svg, 
-                          "rect", 
+            ET.SubElement(self.svg,
+                          "rect",
                           id="rect{}".format(id_),
                           x=str(x),
-                          y=str(y), 
-                          ry = str(roundxy), 
+                          y=str(y),
+                          ry = str(roundxy),
                           width=str(spacing_dict['cell_width']),
-                          height=str(spacing_dict['cell_width']), 
+                          height=str(spacing_dict['cell_width']),
                           style=style_text)
-            _ = ET.SubElement(self.svg, 
-                              "text", 
+            _ = ET.SubElement(self.svg,
+                              "text",
                               id="text{}".format(id_),
                               x=str(x + spacing_dict['cell_width']/2),
-                              y=str(y + spacing_dict['name_y_offset']), 
+                              y=str(y + spacing_dict['name_y_offset']),
                               style=this_font_style)
-            _.text =str(id_)
+            # use another column, not id_
+            _.text =str(self.df.loc[self.df[self.id_column] == id_][self.lable_column].item())[:3]
         if self.legend_params is not None and len(self.legend_params) > 0:
+            # here the viewBox needs to be taken into account...
             self.legendsvg = ET.SubElement(self.svg, "g", transform=
-                    "translate({} {})".format(total_width - 
-                    spacing_dict['margin_right'] + 
+                    "translate({} {})".format(total_width -
+                    spacing_dict['margin_right'] +
                     spacing_dict['legend_offset'][0],
                     total_height - self.legend_height +
                     spacing_dict['legend_offset'][1]))
             self._apply_legend()
-        self._draw_title((total_width - spacing_dict['margin_left'] - 
-                          spacing_dict['margin_right']) / 2 + 
+        self._draw_title((total_width - spacing_dict['margin_left'] -
+                          spacing_dict['margin_right']) / 2 +
                           spacing_dict['margin_left'],
                           spacing_dict['title_y_offset'])
-        
+
     def draw_map(self, path_column='map_path', **kwargs):
-        """ Creates an SVG file based on SVG paths delineating a map, 
-            with paths from the specified columns in csv_path 
+        """ Creates an SVG file based on SVG paths delineating a map,
+            with paths from the specified columns in csv_path
             (specified when Chorogrid class initialized).
-        
-        Note on kwarg dict: defaults will be used for all keys unless 
+
+        Note on kwarg dict: defaults will be used for all keys unless
         overridden, i.e. you don't need to state all the key-value pairs.
-        
+
         Note that the map does not have an option for font_dict, as
         it will not print labels.
-                      
+
         kwarg: spacing_dict
-            # Note that total_width and total_height will depend on where 
+            # Note that total_width and total_height will depend on where
             # the paths came from.
             # For the USA map included with this python module,
             # they are 959 and 593.
             default: {'map_width': 959, 'map_height': 593,
-                        'margin_left': 10,  'margin_top': 20,  
-                        'margin_right': 80,  'margin_bottom': 20,  
+                        'margin_left': 10,  'margin_top': 20,
+                        'margin_right': 80,  'margin_bottom': 20,
                         'title_y_offset': 45,
-                        'stroke_color': '#ffffff', 'stroke_width': 0.5, 
+                        'stroke_color': '#ffffff', 'stroke_width': 0.5,
                         'missing_color': '#a0a0a0',
-                        'legend_offset': [0, 0]}           
+                        'legend_offset': [0, 0]}
         """
-        spacing_dict = {'map_width': 959, 
+        spacing_dict = {'map_width': 959,
                         'map_height': 593,
-                        'margin_left': 10,  
-                        'margin_top': 20,  
-                        'margin_right': 80,  
-                        'margin_bottom': 20,  
+                        'margin_left': 10,
+                        'margin_top': 20,
+                        'margin_right': 80,
+                        'margin_bottom': 20,
                         'title_y_offset': 45,
-                        'stroke_color': '#ffffff', 
-                        'stroke_width': 0.5, 
+                        'stroke_color': '#ffffff',
+                        'stroke_width': 0.5,
                         'missing_color': '#a0a0a0',
-                        'legend_offset': [0, 0]}        
-        spacing_dict = self._update_default_dict(spacing_dict, 
-                                                 'spacing_dict', kwargs) 
-        total_width = (spacing_dict['map_width'] + 
-                       spacing_dict['margin_left'] + 
+                        'legend_offset': [0, 0],
+                        'preserveAspectRatio': "none",
+                        'viewbox': [0, 0, 959, 539]} # <min-x> <min-y> <width> <height>
+        spacing_dict = self._update_default_dict(spacing_dict,
+                                                 'spacing_dict', kwargs)
+        total_width = (spacing_dict['map_width'] +
+                       spacing_dict['margin_left'] +
                        spacing_dict['margin_right'])
-        total_height = (spacing_dict['map_height'] + 
-                        spacing_dict['margin_top'] + 
+        total_height = (spacing_dict['map_height'] +
+                        spacing_dict['margin_top'] +
                         spacing_dict['margin_bottom'])
-        self._make_svg_top(total_width, total_height)
+        self._make_svg_top(total_width, total_height,
+                           preserveAspectRatio=spacing_dict['preserveAspectRatio'],
+                           viewbox=spacing_dict['viewbox'])
         translate_text = "translate({} {})".format(spacing_dict['margin_left'],
                                                    spacing_dict['margin_top'])
         self.additional_offset = [spacing_dict['margin_left'],
@@ -569,22 +585,29 @@ class Chorogrid(object):
                           style=style_text)
         if self.legend_params is not None and len(self.legend_params) > 0:
             self.legendsvg = ET.SubElement(self.svg, "g", transform=
-                    "translate({} {})".format(total_width - 
-                    spacing_dict['margin_right'] + 
+                    "translate({} {})".format(spacing_dict['viewbox'][2] -
+                    spacing_dict['margin_right'] +
                     spacing_dict['legend_offset'][0],
-                    total_height - self.legend_height +
+                    spacing_dict['viewbox'][3] - self.legend_height +
                     spacing_dict['legend_offset'][1]))
+                    # viewbox[min max width heigth]
+                    #"translate({} {})".format(total_width -
+                    #spacing_dict['margin_right'] +
+                    #spacing_dict['legend_offset'][0],
+                    #total_height - self.legend_height +
+                    #spacing_dict['legend_offset'][1]))
+
             self._apply_legend()
-        self._draw_title((total_width - spacing_dict['margin_left'] - 
-                          spacing_dict['margin_right']) / 2 + 
+        self._draw_title((spacing_dict['viewbox'][2] - spacing_dict['margin_left'] -
+                          spacing_dict['margin_right']) / 2 +
                           spacing_dict['margin_left'],
                           spacing_dict['title_y_offset'])
 
     def draw_hex(self, x_column='hex_x', y_column='hex_y', true_rows=True, **kwargs):
-        """ Creates an SVG file based on a hexagonal grid, with coordinates 
+        """ Creates an SVG file based on a hexagonal grid, with coordinates
         from the specified columns in csv_path (specified when Chorogrid class
         initialized).
-        
+
         Note that hexagonal grids can have two possible layouts:
         1. 'true rows' (the default), in which:
           * hexagons lie in straight rows joined by vertical sides to east and west
@@ -601,93 +624,93 @@ class Chorogrid(object):
           * then (1,0) shares its northeast side with (2,0)'s southwest side.
           * thus odd columns are offset to the south of even columns
 
-        Note on kwarg dicts: defaults will be used for all keys unless 
+        Note on kwarg dicts: defaults will be used for all keys unless
         overridden, i.e. you don't need to state all the key-value pairs.
-        
+
         kwarg: font_dict
-            default: {'font-style': 'normal', 'font-weight': 'normal', 
-                      'font-size': '12px', 'line-height': '125%', 
-                      'text-anchor': 'middle', 'font-family': 'sans-serif', 
-                      'letter-spacing': '0px', 'word-spacing': '0px', 
-                      'fill-opacity': 1, 'stroke': 'none', 
-                      'stroke-width': '1px', 'stroke-linecap': 'butt', 
+            default: {'font-style': 'normal', 'font-weight': 'normal',
+                      'font-size': '12px', 'line-height': '125%',
+                      'text-anchor': 'middle', 'font-family': 'sans-serif',
+                      'letter-spacing': '0px', 'word-spacing': '0px',
+                      'fill-opacity': 1, 'stroke': 'none',
+                      'stroke-width': '1px', 'stroke-linecap': 'butt',
                       'stroke-linejoin': 'miter', 'stroke-opacity': 1,
                       'fill': '#000000'}
-                      
+
         kwarg: spacing_dict
-            default: {'margin_left': 30,  'margin_top': 60,  
-                      'margin_right': 40,  'margin_bottom': 20,  
-                      'cell_width': 40,  'title_y_offset': 30,  
+            default: {'margin_left': 30,  'margin_top': 60,
+                      'margin_right': 40,  'margin_bottom': 20,
+                      'cell_width': 40,  'title_y_offset': 30,
                       'name_y_offset': 15,  'stroke_width': 0
-                      'gutter': 1,  'stroke_color': '#ffffff',  
+                      'gutter': 1,  'stroke_color': '#ffffff',
                       'missing_color': '#a0a0a0',
                       'legend_offset': [0, -10]}
-                      
+
         kwarg: font_colors
             default: "#000000"
-            if specified, must be either listlike object of colors 
-            corresponding to ids, a dict of hex colors to font color, or a 
-            string of a single color.            
+            if specified, must be either listlike object of colors
+            corresponding to ids, a dict of hex colors to font color, or a
+            string of a single color.
         """
-        font_dict = {'font-style': 'normal', 
-                     'font-weight': 'normal', 
-                     'font-size': '12px', 
-                     'line-height': '125%', 
-                     'text-anchor': 'middle', 
-                     'font-family': 'sans-serif', 
-                     'letter-spacing': '0px', 
-                     'word-spacing': '0px', 
-                     'fill-opacity': 1, 
-                     'stroke': 'none', 
+        font_dict = {'font-style': 'normal',
+                     'font-weight': 'normal',
+                     'font-size': '12px',
+                     'line-height': '125%',
+                     'text-anchor': 'middle',
+                     'font-family': 'sans-serif',
+                     'letter-spacing': '0px',
+                     'word-spacing': '0px',
+                     'fill-opacity': 1,
+                     'stroke': 'none',
                      'stroke-width': '1px',
-                     'stroke-linecap': 'butt', 
-                     'stroke-linejoin': 'miter', 
+                     'stroke-linecap': 'butt',
+                     'stroke-linejoin': 'miter',
                      'stroke-opacity': 1}
-        spacing_dict = {'margin_left': 30,  
-                        'margin_top': 60,  
-                        'margin_right': 80,  
-                        'margin_bottom': 20,  
-                        'cell_width': 40,  
-                        'title_y_offset': 30,  
-                        'name_y_offset': 15,  
-                        'roundedness': 3,  
-                        'stroke_width': 0,  
-                        'stroke_color': '#ffffff',  
-                        'missing_color': '#a0a0a0', 
+        spacing_dict = {'margin_left': 30,
+                        'margin_top': 60,
+                        'margin_right': 80,
+                        'margin_bottom': 20,
+                        'cell_width': 40,
+                        'title_y_offset': 30,
+                        'name_y_offset': 15,
+                        'roundedness': 3,
+                        'stroke_width': 0,
+                        'stroke_color': '#ffffff',
+                        'missing_color': '#a0a0a0',
                         'gutter': 1,
                         'missing_font_color': '#000000',
                         'legend_offset': [0, -10]}
         font_dict = self._update_default_dict(font_dict, 'font_dict', kwargs)
-       
-        spacing_dict = self._update_default_dict(spacing_dict, 
+
+        spacing_dict = self._update_default_dict(spacing_dict,
                                                  'spacing_dict', kwargs)
         font_colors = self._determine_font_colors(kwargs)
         font_style = self._dict2style(font_dict)
         if true_rows:
-            total_width = (spacing_dict['margin_left'] + 
-                           (self.df[x_column].max()+1.5) * 
-                           spacing_dict['cell_width'] + 
+            total_width = (spacing_dict['margin_left'] +
+                           (self.df[x_column].max()+1.5) *
+                           spacing_dict['cell_width'] +
                            (self.df[x_column].max()-1) *
-                           spacing_dict['gutter'] + 
+                           spacing_dict['gutter'] +
                            spacing_dict['margin_right'])
-            total_height = (spacing_dict['margin_top'] + 
+            total_height = (spacing_dict['margin_top'] +
                             (self.df[y_column].max()*0.866 + 0.289) *
-                            spacing_dict['cell_width'] + 
+                            spacing_dict['cell_width'] +
                             (self.df[y_column].max()-1) *
-                            spacing_dict['gutter'] + 
+                            spacing_dict['gutter'] +
                             spacing_dict['margin_bottom'])
         else:
-            total_width = (spacing_dict['margin_left'] + 
-                           (self.df[x_column].max()*0.75 + 0.25) * 
-                           spacing_dict['cell_width'] + 
+            total_width = (spacing_dict['margin_left'] +
+                           (self.df[x_column].max()*0.75 + 0.25) *
+                           spacing_dict['cell_width'] +
                            (self.df[x_column].max()-1) *
-                           spacing_dict['gutter'] + 
+                           spacing_dict['gutter'] +
                            spacing_dict['margin_right'])
-            total_height = (spacing_dict['margin_top'] + 
+            total_height = (spacing_dict['margin_top'] +
                             (self.df[y_column].max() + 1.5) *
-                            spacing_dict['cell_width'] + 
+                            spacing_dict['cell_width'] +
                             (self.df[y_column].max()-1) *
-                            spacing_dict['gutter'] + 
+                            spacing_dict['gutter'] +
                             spacing_dict['margin_bottom'])
         self._make_svg_top(total_width, total_height)
         w = spacing_dict['cell_width']
@@ -706,52 +729,52 @@ class Chorogrid(object):
             if true_rows:
                 if down % 2 == 1:
                     x_offset = w/2
-                x = (spacing_dict['margin_left'] + 
+                x = (spacing_dict['margin_left'] +
                      x_offset + across * (w + spacing_dict['gutter']))
-                y = (spacing_dict['margin_top'] + 
+                y = (spacing_dict['margin_top'] +
                     down * (1.5 * w / sqrt(3) + spacing_dict['gutter']))
             else:
                 x_offset = 0.25 * w # because northwest corner is to the east of westmost point
                 if across % 2 == 1:
                     y_offset = w*0.866/2
-                x = (spacing_dict['margin_left'] + 
+                x = (spacing_dict['margin_left'] +
                      x_offset + across * 0.75 * (w + spacing_dict['gutter']))
-                y = (spacing_dict['margin_top'] + 
+                y = (spacing_dict['margin_top'] +
                     y_offset + down * (sqrt(3) / 2 * w + spacing_dict['gutter']))
-       
+
             polystyle = ("stroke:{0};stroke-miterlimit:4;stroke-opacity:1;"
                          "stroke-dasharray:none;fill:{1};stroke-width:"
                          "{2}".format(spacing_dict['stroke_color'],
                                       this_color,
                                       spacing_dict['stroke_width']))
             this_font_style = font_style + ';fill:{}'.format(this_font_color)
-            ET.SubElement(self.svg, 
-                          "polygon", 
+            ET.SubElement(self.svg,
+                          "polygon",
                           id="hex{}".format(id_),
                           points=self._calc_hexagon(x, y, w, true_rows),
                           style=polystyle)
-            _ = ET.SubElement(self.svg, 
-                              "text", 
+            _ = ET.SubElement(self.svg,
+                              "text",
                               id="text{}".format(id_),
                               x=str(x+w/2),
-                              y=str(y + spacing_dict['name_y_offset']), 
+                              y=str(y + spacing_dict['name_y_offset']),
                               style=this_font_style)
             _.text =str(id_)
         if self.legend_params is not None and len(self.legend_params) > 0:
             self.legendsvg = ET.SubElement(self.svg, "g", transform=
-                    "translate({} {})".format(total_width - 
-                    spacing_dict['margin_right'] + 
+                    "translate({} {})".format(total_width -
+                    spacing_dict['margin_right'] +
                     spacing_dict['legend_offset'][0],
                     total_height - self.legend_height +
                     spacing_dict['legend_offset'][1]))
             self._apply_legend()
-        self._draw_title((total_width - spacing_dict['margin_left'] - 
-                          spacing_dict['margin_right']) / 2 + 
+        self._draw_title((total_width - spacing_dict['margin_left'] -
+                          spacing_dict['margin_right']) / 2 +
                           spacing_dict['margin_left'],
                           spacing_dict['title_y_offset'])
 
-    def draw_multihex(self, x_column='fourhex_x', y_column='fourhex_y', 
-                      contour_column = 'fourhex_contour', 
+    def draw_multihex(self, x_column='fourhex_x', y_column='fourhex_y',
+                      contour_column = 'fourhex_contour',
                       x_label_offset_column = 'fourhex_label_offset_x',
                       y_label_offset_column = 'fourhex_label_offset_y',
                       **kwargs):
@@ -764,75 +787,75 @@ class Chorogrid(object):
                 e: up and to the left
                 f: up
             Capital letters signify a move without drawing.
-        
-        Note on kwarg dicts: defaults will be used for all keys unless 
+
+        Note on kwarg dicts: defaults will be used for all keys unless
         overridden, i.e. you don't need to state all the key-value pairs.
-        
+
         kwarg: font_dict
-            default: {'font-style': 'normal', 'font-weight': 'normal', 
-                      'font-size': '12px', 'line-height': '125%', 
-                      'text-anchor': 'middle', 'font-family': 'sans-serif', 
-                      'letter-spacing': '0px', 'word-spacing': '0px', 
-                      'fill-opacity': 1, 'stroke': 'none', 
-                      'stroke-width': '1px', 'stroke-linecap': 'butt', 
+            default: {'font-style': 'normal', 'font-weight': 'normal',
+                      'font-size': '12px', 'line-height': '125%',
+                      'text-anchor': 'middle', 'font-family': 'sans-serif',
+                      'letter-spacing': '0px', 'word-spacing': '0px',
+                      'fill-opacity': 1, 'stroke': 'none',
+                      'stroke-width': '1px', 'stroke-linecap': 'butt',
                       'stroke-linejoin': 'miter', 'stroke-opacity': 1,
                       'fill': '#000000'}
-                      
+
         kwarg: spacing_dict
-            default: {'margin_left': 30,  'margin_top': 60,  
-                      'margin_right': 40,  'margin_bottom': 20,  
-                      'cell_width': 30,  'title_y_offset': 30,  
+            default: {'margin_left': 30,  'margin_top': 60,
+                      'margin_right': 40,  'margin_bottom': 20,
+                      'cell_width': 30,  'title_y_offset': 30,
                       'name_y_offset': 15,  'stroke_width': 1
                       'stroke_color': '#ffffff',  'missing_color': '#a0a0a0',
                       'legend_offset': [0, -10]}
             (note that there is no gutter)
-                      
+
         kwarg: font_colors
             default = "#000000"
-            if specified, must be either listlike object of colors 
-            corresponding to ids, a dict of hex colors to font color, or a 
-            string of a single color.           
+            if specified, must be either listlike object of colors
+            corresponding to ids, a dict of hex colors to font color, or a
+            string of a single color.
         """
-        font_dict = {'font-style': 'normal', 
-                     'font-weight': 'normal', 
-                     'font-size': '12px', 
-                     'line-height': '125%', 
-                     'text-anchor': 'middle', 
-                     'font-family': 'sans-serif', 
-                     'letter-spacing': '0px', 
-                     'word-spacing': '0px', 
-                     'fill-opacity': 1, 
-                     'stroke': 'none', 
+        font_dict = {'font-style': 'normal',
+                     'font-weight': 'normal',
+                     'font-size': '12px',
+                     'line-height': '125%',
+                     'text-anchor': 'middle',
+                     'font-family': 'sans-serif',
+                     'letter-spacing': '0px',
+                     'word-spacing': '0px',
+                     'fill-opacity': 1,
+                     'stroke': 'none',
                      'stroke-width': '1px',
-                     'stroke-linecap': 'butt', 
-                     'stroke-linejoin': 'miter', 
+                     'stroke-linecap': 'butt',
+                     'stroke-linejoin': 'miter',
                      'stroke-opacity': 1}
-        spacing_dict = {'margin_left': 30,  
-                        'margin_top': 60,  
-                        'margin_right': 80,  
-                        'margin_bottom': 20,  
-                        'cell_width': 30,  
-                        'title_y_offset': 30,  
-                        'name_y_offset': 15,  
-                        'roundedness': 3,  
-                        'stroke_width': 1,  
-                        'stroke_color': '#ffffff',  
-                        'missing_color': '#a0a0a0', 
+        spacing_dict = {'margin_left': 30,
+                        'margin_top': 60,
+                        'margin_right': 80,
+                        'margin_bottom': 20,
+                        'cell_width': 30,
+                        'title_y_offset': 30,
+                        'name_y_offset': 15,
+                        'roundedness': 3,
+                        'stroke_width': 1,
+                        'stroke_color': '#ffffff',
+                        'missing_color': '#a0a0a0',
                         'missing_font_color': '#000000',
                         'legend_offset': [0, -10]}
         font_dict = self._update_default_dict(font_dict, 'font_dict', kwargs)
-       
-        spacing_dict = self._update_default_dict(spacing_dict, 
+
+        spacing_dict = self._update_default_dict(spacing_dict,
                                                  'spacing_dict', kwargs)
         font_colors = self._determine_font_colors(kwargs)
         font_style = self._dict2style(font_dict)
-        total_width = (spacing_dict['margin_left'] + 
-                       (self.df[x_column].max()+1.5) * 
-                       spacing_dict['cell_width'] + 
+        total_width = (spacing_dict['margin_left'] +
+                       (self.df[x_column].max()+1.5) *
+                       spacing_dict['cell_width'] +
                        spacing_dict['margin_right'])
-        total_height = (spacing_dict['margin_top'] + 
+        total_height = (spacing_dict['margin_top'] +
                         (self.df[y_column].max() + 1.711) *
-                        spacing_dict['cell_width'] + 
+                        spacing_dict['cell_width'] +
                         spacing_dict['margin_bottom'])
         self._make_svg_top(total_width, total_height)
         w = spacing_dict['cell_width']
@@ -854,10 +877,10 @@ class Chorogrid(object):
                 x_offset = w/2
             else:
                 x_offset = 0
-       
-            x = (spacing_dict['margin_left'] + 
+
+            x = (spacing_dict['margin_left'] +
                  x_offset + across * w)
-            y = (spacing_dict['margin_top'] + 
+            y = (spacing_dict['margin_top'] +
                  down * (1.5 * w / sqrt(3)))
             polystyle = ("stroke:{0};stroke-miterlimit:4;stroke-opacity:1;"
                          "stroke-dasharray:none;fill:{1};stroke-width:"
@@ -865,34 +888,34 @@ class Chorogrid(object):
                                       this_color,
                                       spacing_dict['stroke_width']))
             this_font_style = font_style + ';fill:{}'.format(this_font_color)
-            ET.SubElement(self.svg, 
-                          "path", 
+            ET.SubElement(self.svg,
+                          "path",
                           id="hex{}".format(id_),
                           d=self._calc_multihex(x, y, w, contour),
                           style=polystyle)
-            _ = ET.SubElement(self.svg, 
-                              "text", 
+            _ = ET.SubElement(self.svg,
+                              "text",
                               id="text{}".format(id_),
                               x=str(x + w/2 + w * label_off_x),
                               y=str(y + spacing_dict['name_y_offset'] +
-                                    h * label_off_y), 
+                                    h * label_off_y),
                               style=this_font_style)
             _.text =str(id_)
         if self.legend_params is not None and len(self.legend_params) > 0:
             self.legendsvg = ET.SubElement(self.svg, "g", transform=
-                    "translate({} {})".format(total_width - 
-                    spacing_dict['margin_right'] + 
+                    "translate({} {})".format(total_width -
+                    spacing_dict['margin_right'] +
                     spacing_dict['legend_offset'][0],
                     total_height - self.legend_height +
                     spacing_dict['legend_offset'][1]))
             self._apply_legend()
-        self._draw_title((total_width - spacing_dict['margin_left'] - 
-                          spacing_dict['margin_right']) / 2 + 
+        self._draw_title((total_width - spacing_dict['margin_left'] -
+                          spacing_dict['margin_right']) / 2 +
                           spacing_dict['margin_left'],
                           spacing_dict['title_y_offset'])
 
-    def draw_multisquare(self, x_column='multisquare_x', y_column='multisquare_y', 
-                      contour_column = 'multisquare_contour', 
+    def draw_multisquare(self, x_column='multisquare_x', y_column='multisquare_y',
+                      contour_column = 'multisquare_contour',
                       x_label_offset_column = 'multisquare_label_offset_x',
                       y_label_offset_column = 'multisquare_label_offset_y',
                       **kwargs):
@@ -907,73 +930,73 @@ class Chorogrid(object):
                 C: left (without drawing)
                 D: up (without drawing)
 
-        Note on kwarg dicts: defaults will be used for all keys unless 
+        Note on kwarg dicts: defaults will be used for all keys unless
         overridden, i.e. you don't need to state all the key-value pairs.
-        
+
         kwarg: font_dict
-            default: {'font-style': 'normal', 'font-weight': 'normal', 
-                      'font-size': '12px', 'line-height': '125%', 
-                      'text-anchor': 'middle', 'font-family': 'sans-serif', 
-                      'letter-spacing': '0px', 'word-spacing': '0px', 
-                      'fill-opacity': 1, 'stroke': 'none', 
-                      'stroke-width': '1px', 'stroke-linecap': 'butt', 
+            default: {'font-style': 'normal', 'font-weight': 'normal',
+                      'font-size': '12px', 'line-height': '125%',
+                      'text-anchor': 'middle', 'font-family': 'sans-serif',
+                      'letter-spacing': '0px', 'word-spacing': '0px',
+                      'fill-opacity': 1, 'stroke': 'none',
+                      'stroke-width': '1px', 'stroke-linecap': 'butt',
                       'stroke-linejoin': 'miter', 'stroke-opacity': 1,
                       'fill': '#000000'}
-                      
+
         kwarg: spacing_dict
-            default: {'margin_left': 30,  'margin_top': 60,  
-                      'margin_right': 40,  'margin_bottom': 20,  
-                      'cell_width': 30,  'title_y_offset': 30,  
+            default: {'margin_left': 30,  'margin_top': 60,
+                      'margin_right': 40,  'margin_bottom': 20,
+                      'cell_width': 30,  'title_y_offset': 30,
                       'name_y_offset': 15,  'stroke_width': 1
                       'stroke_color': '#ffffff',  'missing_color': '#a0a0a0',
                       'legend_offset': [0, -10]}
             (note that there is no gutter)
-                      
+
         kwarg: font_colors
             default = "#000000"
-            if specified, must be either listlike object of colors 
-            corresponding to ids, a dict of hex colors to font color, or a 
-            string of a single color.           
+            if specified, must be either listlike object of colors
+            corresponding to ids, a dict of hex colors to font color, or a
+            string of a single color.
         """
-        font_dict = {'font-style': 'normal', 
-                     'font-weight': 'normal', 
-                     'font-size': '12px', 
-                     'line-height': '125%', 
-                     'text-anchor': 'middle', 
-                     'font-family': 'sans-serif', 
-                     'letter-spacing': '0px', 
-                     'word-spacing': '0px', 
-                     'fill-opacity': 1, 
-                     'stroke': 'none', 
+        font_dict = {'font-style': 'normal',
+                     'font-weight': 'normal',
+                     'font-size': '12px',
+                     'line-height': '125%',
+                     'text-anchor': 'middle',
+                     'font-family': 'sans-serif',
+                     'letter-spacing': '0px',
+                     'word-spacing': '0px',
+                     'fill-opacity': 1,
+                     'stroke': 'none',
                      'stroke-width': '1px',
-                     'stroke-linecap': 'butt', 
-                     'stroke-linejoin': 'miter', 
+                     'stroke-linecap': 'butt',
+                     'stroke-linejoin': 'miter',
                      'stroke-opacity': 1}
-        spacing_dict = {'margin_left': 30,  
-                        'margin_top': 60,  
-                        'margin_right': 80,  
-                        'margin_bottom': 20,  
-                        'cell_width': 30,  
-                        'title_y_offset': 30,  
-                        'name_y_offset': 15,  
-                        'roundedness': 3,  
-                        'stroke_width': 1,  
-                        'stroke_color': '#ffffff',  
-                        'missing_color': '#a0a0a0', 
+        spacing_dict = {'margin_left': 30,
+                        'margin_top': 60,
+                        'margin_right': 80,
+                        'margin_bottom': 20,
+                        'cell_width': 30,
+                        'title_y_offset': 30,
+                        'name_y_offset': 15,
+                        'roundedness': 3,
+                        'stroke_width': 1,
+                        'stroke_color': '#ffffff',
+                        'missing_color': '#a0a0a0',
                         'missing_font_color': '#000000',
                         'legend_offset': [0, -10]}
         font_dict = self._update_default_dict(font_dict, 'font_dict', kwargs)
-        spacing_dict = self._update_default_dict(spacing_dict, 
+        spacing_dict = self._update_default_dict(spacing_dict,
                                                  'spacing_dict', kwargs)
         font_colors = self._determine_font_colors(kwargs)
         font_style = self._dict2style(font_dict)
-        total_width = (spacing_dict['margin_left'] + 
-                       (self.df[x_column].max()+1) * 
-                       spacing_dict['cell_width'] + 
+        total_width = (spacing_dict['margin_left'] +
+                       (self.df[x_column].max()+1) *
+                       spacing_dict['cell_width'] +
                        spacing_dict['margin_right'])
-        total_height = (spacing_dict['margin_top'] + 
+        total_height = (spacing_dict['margin_top'] +
                         (self.df[y_column].max()+1) *
-                        spacing_dict['cell_width'] + 
+                        spacing_dict['cell_width'] +
                         spacing_dict['margin_bottom'])
         self._make_svg_top(total_width, total_height)
         w = spacing_dict['cell_width']
@@ -989,9 +1012,9 @@ class Chorogrid(object):
             contour = self.df[contour_column].iloc[i]
             label_off_x = self.df[x_label_offset_column].iloc[i]
             label_off_y = self.df[y_label_offset_column].iloc[i]
-       
+
             x = (spacing_dict['margin_left'] + across * w)
-            y = (spacing_dict['margin_top'] + 
+            y = (spacing_dict['margin_top'] +
                  down * w)
             polystyle = ("stroke:{0};stroke-miterlimit:4;stroke-opacity:1;"
                          "stroke-dasharray:none;fill:{1};stroke-width:"
@@ -999,28 +1022,28 @@ class Chorogrid(object):
                                       this_color,
                                       spacing_dict['stroke_width']))
             this_font_style = font_style + ';fill:{}'.format(this_font_color)
-            ET.SubElement(self.svg, 
-                          "path", 
+            ET.SubElement(self.svg,
+                          "path",
                           id="square{}".format(id_),
                           d=self._calc_multisquare(x, y, w, contour),
                           style=polystyle)
-            _ = ET.SubElement(self.svg, 
-                              "text", 
+            _ = ET.SubElement(self.svg,
+                              "text",
                               id="text{}".format(id_),
                               x=str(x + w/2 + w * label_off_x),
                               y=str(y + spacing_dict['name_y_offset'] +
-                                    w * label_off_y), 
+                                    w * label_off_y),
                               style=this_font_style)
             _.text = str(id_)
         if self.legend_params is not None and len(self.legend_params) > 0:
             self.legendsvg = ET.SubElement(self.svg, "g", transform=
-                    "translate({} {})".format(total_width - 
-                    spacing_dict['margin_right'] + 
+                    "translate({} {})".format(total_width -
+                    spacing_dict['margin_right'] +
                     spacing_dict['legend_offset'][0],
                     total_height - self.legend_height +
                     spacing_dict['legend_offset'][1]))
             self._apply_legend()
-        self._draw_title((total_width - spacing_dict['margin_left'] - 
-                          spacing_dict['margin_right']) / 2 + 
+        self._draw_title((total_width - spacing_dict['margin_left'] -
+                          spacing_dict['margin_right']) / 2 +
                           spacing_dict['margin_left'],
                           spacing_dict['title_y_offset'])
