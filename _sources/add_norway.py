@@ -23,7 +23,8 @@ for line in df.iterrows():
         'Fylkenummer': line[1][4],
         'Folketal': line[1][6],
         'lat': line[1][12],
-        'long': line[1][13]
+        'long': line[1][13],
+        'abbrev': line[1][3][:3] # No convention, just grap first 3 letters
     }
 
 # # sorted(alternatives, key=lambda x: (x[6], x[4]))
@@ -55,7 +56,7 @@ for k in range(len(attributes)):
     #print(attributes[k]['inkscape:label'])
     #print(kommuner[komid])
     #print()
-    row = [komid, attributes[k]['inkscape:label'], str(attributes[k]['d']), kommuner[komid]['Fylkenummer'], kommuner[komid]['lat'], kommuner[komid]['long'], kommuner[komid]['geoname_id'], kommuner[komid]['Folketal']]
+    row = [komid, kommuner[komid]['abbrev'], attributes[k]['inkscape:label'], str(attributes[k]['d']), kommuner[komid]['Fylkenummer'], kommuner[komid]['lat'], kommuner[komid]['long'], kommuner[komid]['geoname_id'], kommuner[komid]['Folketal']]
     table.append(row)
 
 df = pd.DataFrame(table)
@@ -143,15 +144,29 @@ def nice_grid():
             #          "y": y
             #           }, ignore_index=True)
 
+def hex_grid():
+    """https://github.com/Prooffreader/chorogrid/issues/6
+    (if it's hexes, every other row is offset 1/2 a space to the right)."""
+    # loop over df['square_y'], pull each kom 1/2 space.. 5 to the right (east)
+    # when nice_grid() is fixed, this shuold still work.
+    for index, row in df.iterrows():
+        #print(index, row)
+        #print(row.square_x, type(row.square_x), row.square_y, type(row.square_y))
+        df.loc[df.kommuneid == row.kommuneid, "hex_x"] = row.square_x + 5
+        df.loc[df.kommuneid == row.kommuneid, "hex_y"] = row.square_y
+
+
+
 #compact_grid()
 #create_grid_with_bins(n_heigth=80, n_width=70)
 nice_grid()
-
+hex_grid()
 
 print(df.head())
 print(df.tail())
 
 # import sys
-# sys.exit()
-df.to_csv("../chorogrid/databases/norway_municilalities.csv")
+# sys.exit("working on hex..")
+
+df.to_csv("../chorogrid/databases/norway_municilalities2.csv")
 print("saved")
