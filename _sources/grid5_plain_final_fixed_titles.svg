@@ -1,0 +1,4016 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="480.14282"
+   id="svg7561"
+   preserveAspectRatio="None"
+   version="1.1"
+   viewBox="0 0 292.01413 480.14282"
+   width="292.01413"
+   sodipodi:docname="grid5_plain_final_fixed_titles.svg"
+   inkscape:version="0.91 r13725">
+  <metadata
+     id="metadata8037">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8035">
+    <inkscape:perspective
+       id="perspective45"
+       sodipodi:type="inkscape:persp3d"
+       inkscape:persp3d-origin="405.00001 : 180 : 1"
+       inkscape:vp_x="0 : 270 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="810 : 270 : 1" />
+    <g
+       id="s">
+      <g
+         id="c">
+        <path
+           d="M 0,0 0,1 0.5,1 Z"
+           id="t"
+           transform="matrix(0.95105652,0.30901699,-0.30901699,0.95105652,0,-1)"
+           inkscape:connector-curvature="0" />
+        <use
+           height="540"
+           id="use11"
+           transform="scale(-1,1)"
+           width="810"
+           x="0"
+           y="0"
+           xlink:href="#t" />
+      </g>
+      <g
+         id="a">
+        <use
+           height="540"
+           id="use14"
+           transform="matrix(0.30901699,0.95105652,-0.95105652,0.30901699,0,0)"
+           width="810"
+           x="0"
+           y="0"
+           xlink:href="#c" />
+        <use
+           height="540"
+           id="use16"
+           transform="matrix(-0.80901699,0.58778525,-0.58778525,-0.80901699,0,0)"
+           width="810"
+           x="0"
+           y="0"
+           xlink:href="#c" />
+      </g>
+      <use
+         height="540"
+         id="use18"
+         transform="scale(-1,1)"
+         width="810"
+         x="0"
+         y="0"
+         xlink:href="#a" />
+    </g>
+    <inkscape:perspective
+       id="perspective2826"
+       sodipodi:type="inkscape:persp3d"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="0.99999999 : 0.5 : 1" />
+    <inkscape:perspective
+       id="perspective2962"
+       sodipodi:type="inkscape:persp3d"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="0.99999999 : 0.5 : 1" />
+    <inkscape:perspective
+       id="perspective4192"
+       sodipodi:type="inkscape:persp3d"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="0.99999999 : 0.5 : 1" />
+    <inkscape:perspective
+       id="perspective6512"
+       sodipodi:type="inkscape:persp3d"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="0.99999999 : 0.5 : 1" />
+    <inkscape:perspective
+       id="perspective2855"
+       sodipodi:type="inkscape:persp3d"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="0.99999999 : 0.5 : 1" />
+    <inkscape:perspective
+       id="perspective3662"
+       sodipodi:type="inkscape:persp3d"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="0.99999999 : 0.5 : 1" />
+    <inkscape:perspective
+       id="perspective3745"
+       sodipodi:type="inkscape:persp3d"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="0.99999999 : 0.5 : 1" />
+  </defs>
+  <sodipodi:namedview
+     bordercolor="#666666"
+     borderopacity="1"
+     fit-margin-bottom="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-top="0"
+     gridtolerance="10000"
+     guidetolerance="10000"
+     id="namedview8033"
+     objecttolerance="10000"
+     pagecolor="#ffffff"
+     showgrid="true"
+     showguides="true"
+     inkscape:current-layer="svg7561"
+     inkscape:cx="194.89876"
+     inkscape:cy="318.48291"
+     inkscape:guide-bbox="true"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:snap-perpendicular="true"
+     inkscape:snap-tangential="true"
+     inkscape:window-height="878"
+     inkscape:window-maximized="0"
+     inkscape:window-width="1410"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:zoom="1.421744">
+    <inkscape:grid
+       dotted="false"
+       id="grid8051"
+       originx="-8.9970501"
+       originy="-69.544118"
+       snapvisiblegridlinesonly="false"
+       spacingx="2"
+       spacingy="2"
+       type="xygrid" />
+    <sodipodi:guide
+       position="61.00295,76.455882"
+       orientation="1,0"
+       id="guide6033" />
+    <sodipodi:guide
+       position="141.00295,124.45588"
+       orientation="1,0"
+       id="guide6035" />
+  </sodipodi:namedview>
+  <rect
+     Title="Halden"
+     height="10"
+     id="rect101"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="150.81573"
+     y="409.97513" />
+  <rect
+     Title="Moss"
+     height="10"
+     id="rect104"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.06441"
+     y="399.90054" />
+  <rect
+     Title="Sarpsborg"
+     height="10"
+     id="rect105"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="150.93295"
+     y="419.97522" />
+  <rect
+     Title="Fredrikstad"
+     height="10"
+     id="rect106"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="140.73421"
+     y="419.97522" />
+  <rect
+     Title="Hvaler"
+     height="10"
+     id="rect111"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.43756"
+     y="429.97534" />
+  <rect
+     Title="Aremark"
+     height="10"
+     id="rect118"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.05746"
+     y="409.90067" />
+  <rect
+     Title="Marker"
+     height="10"
+     id="rect119"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.07152"
+     y="399.88251" />
+  <rect
+     Title="Rømskog"
+     height="10"
+     id="rect121"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.14984"
+     y="359.88208" />
+  <rect
+     Title="Trøgstad"
+     height="10"
+     id="rect122"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.01836"
+     y="369.97977" />
+  <rect
+     Title="Spydeberg"
+     height="10"
+     id="rect123"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="150.90543"
+     y="389.97488" />
+  <rect
+     Title="Askim"
+     height="10"
+     id="rect124"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="170.97313"
+     y="369.88217" />
+  <rect
+     Title="Eidsberg"
+     height="10"
+     id="rect125"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.00491"
+     y="379.90033" />
+  <rect
+     Title="Skiptvet"
+     height="10"
+     id="rect127"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.00493"
+     y="389.88239" />
+  <rect
+     Title="Rakkestad"
+     height="10"
+     id="rect128"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.07661"
+     y="379.88229" />
+  <rect
+     Title="Råde"
+     height="10"
+     id="rect135"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="150.65775"
+     y="399.97501" />
+  <rect
+     Title="Rygge"
+     height="10"
+     id="rect136"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.00491"
+     y="389.90042" />
+  <rect
+     Title="Våler"
+     height="10"
+     id="rect137"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="140.65773"
+     y="399.97501" />
+  <rect
+     Title="Hobøl"
+     height="10"
+     id="rect138"
+     ry="3"
+     style="opacity:0.65700001;fill:#a6cee3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="140.81572"
+     y="409.97513" />
+  <rect
+     Title="Vestby"
+     height="10"
+     id="rect211"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.06585"
+     y="360.0007" />
+  <rect
+     Title="Ski"
+     height="10"
+     id="rect213"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.01834"
+     y="369.98782" />
+  <rect
+     Title="Ås"
+     height="10"
+     id="rect214"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="140.73421"
+     y="389.97488" />
+  <rect
+     Title="Frogn"
+     height="10"
+     id="rect215"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.11714"
+     y="380.02731" />
+  <rect
+     Title="Nesodden"
+     height="10"
+     id="rect216"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.22441"
+     y="339.94672" />
+  <rect
+     Title="Oppegård"
+     height="10"
+     id="rect217"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.14992"
+     y="359.97964" />
+  <rect
+     Title="Bærum"
+     height="10"
+     id="rect219"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.56174"
+     y="349.98758" />
+  <rect
+     Title="Asker"
+     height="10"
+     id="rect220"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="120.94294"
+     y="370.00082" />
+  <rect
+     Title="Aurskog-Høland"
+     height="10"
+     id="rect221"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.41093"
+     y="349.97955" />
+  <rect
+     Title="Sørum"
+     height="10"
+     id="rect226"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.1499"
+     y="359.97964" />
+  <rect
+     Title="Fet"
+     height="10"
+     id="rect227"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.41092"
+     y="349.97955" />
+  <rect
+     Title="Rælingen"
+     height="10"
+     id="rect228"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.06586"
+     y="360.0007" />
+  <rect
+     Title="Enebakk"
+     height="10"
+     id="rect229"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.0049"
+     y="379.97479" />
+  <rect
+     Title="Lørenskog"
+     height="10"
+     id="rect230"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.01836"
+     y="369.97977" />
+  <rect
+     Title="Skedsmo"
+     height="10"
+     id="rect231"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.00488"
+     y="379.97479" />
+  <rect
+     Title="Nittedal"
+     height="10"
+     id="rect233"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.13724"
+     y="359.9877" />
+  <rect
+     Title="Gjerdrum"
+     height="10"
+     id="rect234"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.56174"
+     y="349.95419" />
+  <rect
+     Title="Ullensaker"
+     height="10"
+     id="rect235"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.4109"
+     y="349.97955" />
+  <rect
+     Title="Nes"
+     height="10"
+     id="rect236"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.24872"
+     y="339.97943" />
+  <rect
+     Title="Eidsvoll"
+     height="10"
+     id="rect237"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.4109"
+     y="349.97446" />
+  <rect
+     Title="Nannestad"
+     height="10"
+     id="rect238"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.13725"
+     y="359.97964" />
+  <rect
+     Title="Hurdal"
+     height="10"
+     id="rect239"
+     ry="3"
+     style="opacity:0.65700001;fill:#1f78b4;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.22443"
+     y="339.97943" />
+  <rect
+     Title="Oslo"
+     height="10"
+     id="rect301"
+     ry="3"
+     style="opacity:0.65700001;fill:#b2df8a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.01833"
+     y="369.98782" />
+  <rect
+     Title="Kongsvinger"
+     height="10"
+     id="rect402"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.10081"
+     y="309.61932" />
+  <rect
+     Title="Hamar"
+     height="10"
+     id="rect403"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.04836"
+     y="319.58075" />
+  <rect
+     Title="Ringsaker"
+     height="10"
+     id="rect412"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.1008"
+     y="309.63132" />
+  <rect
+     Title="Løten"
+     height="10"
+     id="rect415"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.14919"
+     y="299.47351" />
+  <rect
+     Title="Stange"
+     height="10"
+     id="rect417"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.35051"
+     y="329.55414" />
+  <rect
+     Title="Nord-Odal"
+     height="10"
+     id="rect418"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.35052"
+     y="329.97931" />
+  <rect
+     Title="Sør-Odal"
+     height="10"
+     id="rect419"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.41544"
+     y="319.97922" />
+  <rect
+     Title="Eidskog"
+     height="10"
+     id="rect420"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.41545"
+     y="329.88174" />
+  <rect
+     Title="Grue"
+     height="10"
+     id="rect423"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.10083"
+     y="309.9791" />
+  <rect
+     Title="Åsnes"
+     height="10"
+     id="rect425"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.22443"
+     y="339.94672" />
+  <rect
+     Title="Våler"
+     height="10"
+     id="rect426"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.04837"
+     y="319.55402" />
+  <rect
+     Title="Elverum"
+     height="10"
+     id="rect427"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.14917"
+     y="289.69061" />
+  <rect
+     Title="Trysil"
+     height="10"
+     id="rect428"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.21663"
+     y="299.979" />
+  <rect
+     Title="Åmot"
+     height="10"
+     id="rect429"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.15135"
+     y="269.6904" />
+  <rect
+     Title="Stor-Elvdal"
+     height="10"
+     id="rect430"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.14917"
+     y="299.69073" />
+  <rect
+     Title="Rendalen"
+     height="10"
+     id="rect432"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.21672"
+     y="289.97888" />
+  <rect
+     Title="Engerdal"
+     height="10"
+     id="rect434"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.15134"
+     y="269.69171" />
+  <rect
+     Title="Tolga"
+     height="10"
+     id="rect436"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.12576"
+     y="259.69159" />
+  <rect
+     Title="Tynset"
+     height="10"
+     id="rect437"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.19106"
+     y="289.47339" />
+  <rect
+     Title="Alvdal"
+     height="10"
+     id="rect438"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.14917"
+     y="289.69193" />
+  <rect
+     Title="Folldal"
+     height="10"
+     id="rect439"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.19101"
+     y="279.69049" />
+  <rect
+     Title="Os"
+     height="10"
+     id="rect441"
+     ry="3"
+     style="opacity:0.65700001;fill:#33a02c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.12576"
+     y="259.69028" />
+  <rect
+     Title="Lillehammer"
+     height="10"
+     id="rect501"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.10078"
+     y="309.89661" />
+  <rect
+     Title="Gjøvik"
+     height="10"
+     id="rect502"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.04834"
+     y="319.89923" />
+  <rect
+     Title="Dovre"
+     height="10"
+     id="rect511"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.11671"
+     y="299.69205" />
+  <rect
+     Title="Lesja"
+     height="10"
+     id="rect512"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.11669"
+     y="289.73248" />
+  <rect
+     Title="Skjåk"
+     height="10"
+     id="rect513"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.151253"
+     y="279.66306" />
+  <rect
+     Title="Lom"
+     height="10"
+     id="rect514"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.15126"
+     y="279.66306" />
+  <rect
+     Title="Vågå"
+     height="10"
+     id="rect515"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.14915"
+     y="279.73236" />
+  <rect
+     Title="Nord-Fron"
+     height="10"
+     id="rect516"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.131203"
+     y="289.66315" />
+  <rect
+     Title="Sel"
+     height="10"
+     id="rect517"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.14915"
+     y="279.73236" />
+  <rect
+     Title="Sør-Fron"
+     height="10"
+     id="rect519"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.100769"
+     y="299.94147" />
+  <rect
+     Title="Ringebu"
+     height="10"
+     id="rect520"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.116623"
+     y="289.73459" />
+  <rect
+     Title="Øyer"
+     height="10"
+     id="rect521"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.11668"
+     y="289.73248" />
+  <rect
+     Title="Gausdal"
+     height="10"
+     id="rect522"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.1008"
+     y="309.95316" />
+  <rect
+     Title="Østre Toten"
+     height="10"
+     id="rect528"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.12215"
+     y="329.9534" />
+  <rect
+     Title="Vestre Toten"
+     height="10"
+     id="rect529"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.08521"
+     y="329.89935" />
+  <rect
+     Title="Jevnaker"
+     height="10"
+     id="rect532"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.23409"
+     y="339.95407" />
+  <rect
+     Title="Lunner"
+     height="10"
+     id="rect533"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.35049"
+     y="329.58084" />
+  <rect
+     Title="Gran"
+     height="10"
+     id="rect534"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.04836"
+     y="319.95328" />
+  <rect
+     Title="Søndre Land"
+     height="10"
+     id="rect536"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.0852"
+     y="329.9418" />
+  <rect
+     Title="Nordre Land"
+     height="10"
+     id="rect538"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.04833"
+     y="319.94168" />
+  <rect
+     Title="Sør-Aurdal"
+     height="10"
+     id="rect540"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.085182"
+     y="329.9418" />
+  <rect
+     Title="Etnedal"
+     height="10"
+     id="rect541"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.121948"
+     y="319.94168" />
+  <rect
+     Title="Nord-Aurdal"
+     height="10"
+     id="rect542"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.10078"
+     y="309.89914" />
+  <rect
+     Title="Vestre Slidre"
+     height="10"
+     id="rect543"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.100769"
+     y="309.94159" />
+  <rect
+     Title="Øystre Slidre"
+     height="10"
+     id="rect544"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.10083"
+     y="299.76196" />
+  <rect
+     Title="Vang"
+     height="10"
+     id="rect545"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb9a99;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.10082"
+     y="299.89902" />
+  <rect
+     Title="Drammen"
+     height="10"
+     id="rect602"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.11712"
+     y="379.95041" />
+  <rect
+     Title="Kongsberg"
+     height="10"
+     id="rect604"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="70.942734"
+     y="369.94223" />
+  <rect
+     Title="Ringerike"
+     height="10"
+     id="rect605"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.56173"
+     y="349.95361" />
+  <rect
+     Title="Hole"
+     height="10"
+     id="rect612"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="100.94292"
+     y="369.95383" />
+  <rect
+     Title="Flå"
+     height="10"
+     id="rect615"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.561707"
+     y="349.94202" />
+  <rect
+     Title="Nes"
+     height="10"
+     id="rect616"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.23408"
+     y="339.95349" />
+  <rect
+     Title="Gol"
+     height="10"
+     id="rect617"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.375504"
+     y="349.94202" />
+  <rect
+     Title="Hemsedal"
+     height="10"
+     id="rect618"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.234047"
+     y="339.94189" />
+  <rect
+     Title="Ål"
+     height="10"
+     id="rect619"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.23407"
+     y="339.94189" />
+  <rect
+     Title="Hol"
+     height="10"
+     id="rect620"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.234055"
+     y="339.94189" />
+  <rect
+     Title="Sigdal"
+     height="10"
+     id="rect621"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.065826"
+     y="359.94702" />
+  <rect
+     Title="Krødsherad"
+     height="10"
+     id="rect622"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.06583"
+     y="359.9537" />
+  <rect
+     Title="Modum"
+     height="10"
+     id="rect623"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.136986"
+     y="359.94214" />
+  <rect
+     Title="Øvre Eiker"
+     height="10"
+     id="rect624"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="60.971985"
+     y="369.93402" />
+  <rect
+     Title="Nedre Eiker"
+     height="10"
+     id="rect625"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="90.94281"
+     y="369.95032" />
+  <rect
+     Title="Lier"
+     height="10"
+     id="rect626"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="80.942795"
+     y="369.94223" />
+  <rect
+     Title="Røyken"
+     height="10"
+     id="rect627"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.11713"
+     y="379.95041" />
+  <rect
+     Title="Hurum"
+     height="10"
+     id="rect628"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="110.94292"
+     y="370.00082" />
+  <rect
+     Title="Flesberg"
+     height="10"
+     id="rect631"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.136978"
+     y="359.93393" />
+  <rect
+     Title="Rollag"
+     height="10"
+     id="rect632"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.065819"
+     y="359.94214" />
+  <rect
+     Title="Nore og Uvdal"
+     height="10"
+     id="rect633"
+     ry="3"
+     style="opacity:0.65700001;fill:#e31a1c;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.561714"
+     y="349.94202" />
+  <rect
+     Title="Horten"
+     height="10"
+     id="rect701"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.01424"
+     y="399.95065" />
+  <rect
+     Title="Holmestrand"
+     height="10"
+     id="rect702"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.01424"
+     y="399.95065" />
+  <rect
+     Title="Tønsberg"
+     height="10"
+     id="rect704"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.11714"
+     y="390.02744" />
+  <rect
+     Title="Sandefjord"
+     height="10"
+     id="rect710"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.42554"
+     y="419.95087" />
+  <rect
+     Title="Larvik"
+     height="10"
+     id="rect709"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.01424"
+     y="409.95074" />
+  <rect
+     Title="Svelvik"
+     height="10"
+     id="rect711"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.13284"
+     y="389.95053" />
+  <rect
+     Title="Sande"
+     height="10"
+     id="rect713"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.132828"
+     y="389.95053" />
+  <rect
+     Title="Hof"
+     height="10"
+     id="rect714"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.117111"
+     y="379.95041" />
+  <rect
+     Title="Re"
+     height="10"
+     id="rect716"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.01424"
+     y="409.95074" />
+  <rect
+     Title="Nøtterøy"
+     height="10"
+     id="rect722"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.13285"
+     y="389.95053" />
+  <rect
+     Title="Tjøme"
+     height="10"
+     id="rect723"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.00056"
+     y="400.02756" />
+  <rect
+     Title="Lardal"
+     height="10"
+     id="rect728"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdbf6f;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.014221"
+     y="399.95474" />
+  <rect
+     Title="Porsgrunn"
+     height="10"
+     id="rect805"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.425522"
+     y="420.02777" />
+  <rect
+     Title="Skien"
+     height="10"
+     id="rect806"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.014214"
+     y="399.95474" />
+  <rect
+     Title="Notodden"
+     height="10"
+     id="rect807"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.117088"
+     y="379.94235" />
+  <rect
+     Title="Siljan"
+     height="10"
+     id="rect811"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.014221"
+     y="409.95486" />
+  <rect
+     Title="Bamble"
+     height="10"
+     id="rect814"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.73278"
+     y="430.02786" />
+  <rect
+     Title="Kragerø"
+     height="10"
+     id="rect815"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.425514"
+     y="419.93463" />
+  <rect
+     Title="Drangedal"
+     height="10"
+     id="rect817"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.014214"
+     y="409.95486" />
+  <rect
+     Title="Nome"
+     height="10"
+     id="rect819"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.117104"
+     y="379.95453" />
+  <rect
+     Title="Bø"
+     height="10"
+     id="rect821"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.13282"
+     y="389.95462" />
+  <rect
+     Title="Sauherad"
+     height="10"
+     id="rect822"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.014206"
+     y="409.94269" />
+  <rect
+     Title="Tinn"
+     height="10"
+     id="rect826"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="50.971973"
+     y="369.94012" />
+  <rect
+     Title="Hjartdal"
+     height="10"
+     id="rect827"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="60.971985"
+     y="379.93414" />
+  <rect
+     Title="Seljord"
+     height="10"
+     id="rect828"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.014206"
+     y="399.94257" />
+  <rect
+     Title="Kviteseid"
+     height="10"
+     id="rect829"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.132797"
+     y="389.93427" />
+  <rect
+     Title="Nissedal"
+     height="10"
+     id="rect830"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.014194"
+     y="409.94058" />
+  <rect
+     Title="Fyresdal"
+     height="10"
+     id="rect831"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.014194"
+     y="399.94046" />
+  <rect
+     Title="Tokke"
+     height="10"
+     id="rect833"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.132805"
+     y="389.94244" />
+  <rect
+     Title="Vinje"
+     height="10"
+     id="rect834"
+     ry="3"
+     style="opacity:0.65700001;fill:#ff7f00;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="50.971973"
+     y="379.94025" />
+  <rect
+     Title="Risør"
+     height="10"
+     id="rect901"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.31691"
+     y="439.94028" />
+  <rect
+     Title="Grimstad"
+     height="10"
+     id="rect904"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.434196"
+     y="460.1109" />
+  <rect
+     Title="Arendal"
+     height="10"
+     id="rect906"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.1744"
+     y="450.07562" />
+  <rect
+     Title="Gjerstad"
+     height="10"
+     id="rect911"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.728188"
+     y="430.07541" />
+  <rect
+     Title="Vegårshei"
+     height="10"
+     id="rect912"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.425507"
+     y="429.94016" />
+  <rect
+     Title="Tvedestrand"
+     height="10"
+     id="rect914"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.316925"
+     y="440.0755" />
+  <rect
+     Title="Froland"
+     height="10"
+     id="rect919"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.174393"
+     y="449.9404" />
+  <rect
+     Title="Lillesand"
+     height="10"
+     id="rect926"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.25827"
+     y="470.09161" />
+  <rect
+     Title="Birkenes"
+     height="10"
+     id="rect928"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.377342"
+     y="459.94324" />
+  <rect
+     Title="Åmli"
+     height="10"
+     id="rect929"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.014206"
+     y="419.94278" />
+  <rect
+     Title="Iveland"
+     height="10"
+     id="rect935"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.174381"
+     y="449.9071" />
+  <rect
+     Title="Evje og Hornnes"
+     height="10"
+     id="rect937"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.316887"
+     y="439.90701" />
+  <rect
+     Title="Bygland"
+     height="10"
+     id="rect938"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.425491"
+     y="429.90689" />
+  <rect
+     Title="Valle"
+     height="10"
+     id="rect940"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.014194"
+     y="419.94067" />
+  <rect
+     Title="Bykle"
+     height="10"
+     id="rect941"
+     ry="3"
+     style="opacity:0.65700001;fill:#cab2d6;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.014183"
+     y="419.94067" />
+  <rect
+     Title="Kristiansand"
+     height="10"
+     id="rect1001"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.258263"
+     y="470.09161" />
+  <rect
+     Title="Mandal"
+     height="10"
+     id="rect1002"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.201481"
+     y="460.09152" />
+  <rect
+     Title="Farsund"
+     height="10"
+     id="rect1003"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.174353"
+     y="449.94101" />
+  <rect
+     Title="Flekkefjord"
+     height="10"
+     id="rect1004"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.316807"
+     y="439.94092" />
+  <rect
+     Title="Vennesla"
+     height="10"
+     id="rect1014"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.316879"
+     y="439.90701" />
+  <rect
+     Title="Songdalen"
+     height="10"
+     id="rect1017"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.174374"
+     y="449.91672" />
+  <rect
+     Title="Søgne"
+     height="10"
+     id="rect1018"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.201488"
+     y="459.91684" />
+  <rect
+     Title="Marnardal"
+     height="10"
+     id="rect1021"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.030861"
+     y="470.14282" />
+  <rect
+     Title="Åseral"
+     height="10"
+     id="rect1026"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.316818"
+     y="429.9165" />
+  <rect
+     Title="Audnedal"
+     height="10"
+     id="rect1027"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.174362"
+     y="450.0914" />
+  <rect
+     Title="Lindesnes"
+     height="10"
+     id="rect1029"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.174353"
+     y="459.94409" />
+  <rect
+     Title="Lyngdal"
+     height="10"
+     id="rect1032"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.174343"
+     y="450.12595" />
+  <rect
+     Title="Hægebostad"
+     height="10"
+     id="rect1034"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.353523"
+     y="429.90689" />
+  <rect
+     Title="Kvinesdal"
+     height="10"
+     id="rect1037"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.316868"
+     y="439.91663" />
+  <rect
+     Title="Sirdal"
+     height="10"
+     id="rect1046"
+     ry="3"
+     style="opacity:0.65700001;fill:#6a3d9a;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.014172"
+     y="420.09106" />
+  <rect
+     Title="Eigersund"
+     height="10"
+     id="rect1101"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.026649"
+     y="430.12573" />
+  <rect
+     Title="Sandnes"
+     height="10"
+     id="rect1102"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.015091"
+     y="410.12549" />
+  <rect
+     Title="Stavanger"
+     height="10"
+     id="rect1103"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="11.01508"
+     y="409.79849" />
+  <rect
+     Title="Haugesund"
+     height="10"
+     id="rect1106"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="30.971954"
+     y="389.94037" />
+  <rect
+     Title="Sokndal"
+     height="10"
+     id="rect1111"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.174343"
+     y="440.12582" />
+  <rect
+     Title="Lund"
+     height="10"
+     id="rect1112"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.026659"
+     y="429.9408" />
+  <rect
+     Title="Bjerkreim"
+     height="10"
+     id="rect1114"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.02566"
+     y="419.94067" />
+  <rect
+     Title="Hå"
+     height="10"
+     id="rect1119"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.02565"
+     y="420.12561" />
+  <rect
+     Title="Klepp"
+     height="10"
+     id="rect1120"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.014172"
+     y="410.09097" />
+  <rect
+     Title="Time"
+     height="10"
+     id="rect1121"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="10.957488"
+     y="429.79871" />
+  <rect
+     Title="Gjesdal"
+     height="10"
+     id="rect1122"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.014183"
+     y="409.94058" />
+  <rect
+     Title="Sola"
+     height="10"
+     id="rect1124"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="11.01508"
+     y="419.79861" />
+  <rect
+     Title="Randaberg"
+     height="10"
+     id="rect1127"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.026609"
+     y="409.94058" />
+  <rect
+     Title="Forsand"
+     height="10"
+     id="rect1129"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.014183"
+     y="399.94046" />
+  <rect
+     Title="Strand"
+     height="10"
+     id="rect1130"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.03286"
+     y="399.94046" />
+  <rect
+     Title="Hjelmeland"
+     height="10"
+     id="rect1133"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.03285"
+     y="400.04913" />
+  <rect
+     Title="Suldal"
+     height="10"
+     id="rect1134"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.014172"
+     y="390.09073" />
+  <rect
+     Title="Sauda"
+     height="10"
+     id="rect1135"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="20.971945"
+     y="390.04901" />
+  <rect
+     Title="Finnøy"
+     height="10"
+     id="rect1141"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.132786"
+     y="389.94037" />
+  <rect
+     Title="Rennesøy"
+     height="10"
+     id="rect1142"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.014172"
+     y="400.09085" />
+  <rect
+     Title="Kvitsøy"
+     height="10"
+     id="rect1144"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="1.0150706"
+     y="410.09195" />
+  <rect
+     Title="Bokn"
+     height="10"
+     id="rect1145"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="0.97192389"
+     y="400.09183" />
+  <rect
+     Title="Tysvær"
+     height="10"
+     id="rect1146"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="40.971962"
+     y="380.09064" />
+  <rect
+     Title="Karmøy"
+     height="10"
+     id="rect1149"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="10.971934"
+     y="399.7984" />
+  <rect
+     Title="Utsira"
+     height="10"
+     id="rect1151"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="0.97192389"
+     y="390.09174" />
+  <rect
+     Title="Vindafjord"
+     height="10"
+     id="rect1160"
+     ry="3"
+     style="opacity:0.65700001;fill:#8dd3c7;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="10.971934"
+     y="389.79828" />
+  <rect
+     Title="Bergen"
+     height="10"
+     id="rect1201"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="20.992346"
+     y="349.54752" />
+  <rect
+     Title="Etne"
+     height="10"
+     id="rect1211"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="40.971962"
+     y="369.94012" />
+  <rect
+     Title="Sveio"
+     height="10"
+     id="rect1216"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="0.87042046"
+     y="379.81055" />
+  <rect
+     Title="Bømlo"
+     height="10"
+     id="rect1219"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="20.971945"
+     y="380.04889" />
+  <rect
+     Title="Stord"
+     height="10"
+     id="rect1221"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="30.971954"
+     y="379.94025" />
+  <rect
+     Title="Fitjar"
+     height="10"
+     id="rect1222"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="10.902158"
+     y="379.79816" />
+  <rect
+     Title="Tysnes"
+     height="10"
+     id="rect1223"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="20.971945"
+     y="359.70142" />
+  <rect
+     Title="Kvinnherad"
+     height="10"
+     id="rect1224"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="30.980412"
+     y="369.69144" />
+  <rect
+     Title="Jondal"
+     height="10"
+     id="rect1227"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="50.971973"
+     y="359.94003" />
+  <rect
+     Title="Odda"
+     height="10"
+     id="rect1228"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="40.971962"
+     y="359.94003" />
+  <rect
+     Title="Ullensvang"
+     height="10"
+     id="rect1231"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.085175"
+     y="329.82309" />
+  <rect
+     Title="Eidfjord"
+     height="10"
+     id="rect1232"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.121933"
+     y="329.93359" />
+  <rect
+     Title="Ulvik"
+     height="10"
+     id="rect1233"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.248436"
+     y="339.94189" />
+  <rect
+     Title="Granvin"
+     height="10"
+     id="rect1234"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.121899"
+     y="329.51889" />
+  <rect
+     Title="Voss"
+     height="10"
+     id="rect1235"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.248428"
+     y="339.93372" />
+  <rect
+     Title="Kvam"
+     height="10"
+     id="rect1238"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.199963"
+     y="349.93381" />
+  <rect
+     Title="Fusa"
+     height="10"
+     id="rect1241"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="30.971954"
+     y="359.94003" />
+  <rect
+     Title="Samnanger"
+     height="10"
+     id="rect1242"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.136967"
+     y="349.93991" />
+  <rect
+     Title="Os"
+     height="10"
+     id="rect1243"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="10.971934"
+     y="359.70346" />
+  <rect
+     Title="Austevoll"
+     height="10"
+     id="rect1244"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.136955"
+     y="349.93991" />
+  <rect
+     Title="Sund"
+     height="10"
+     id="rect1245"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="0.97645295"
+     y="359.62177" />
+  <rect
+     Title="Fjell"
+     height="10"
+     id="rect1246"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.136948"
+     y="349.93991" />
+  <rect
+     Title="Askøy"
+     height="10"
+     id="rect1247"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="10.953918"
+     y="349.67038" />
+  <rect
+     Title="Vaksdal"
+     height="10"
+     id="rect1251"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.248417"
+     y="339.93372" />
+  <rect
+     Title="Modalen"
+     height="10"
+     id="rect1252"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.121889"
+     y="329.70233" />
+  <rect
+     Title="Osterøy"
+     height="10"
+     id="rect1253"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.121918"
+     y="329.72488" />
+  <rect
+     Title="Meland"
+     height="10"
+     id="rect1256"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.248409"
+     y="339.93982" />
+  <rect
+     Title="Øygarden"
+     height="10"
+     id="rect1259"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="11.00299"
+     y="339.5459" />
+  <rect
+     Title="Radøy"
+     height="10"
+     id="rect1260"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.00301"
+     y="339.93982" />
+  <rect
+     Title="Lindås"
+     height="10"
+     id="rect1263"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.12191"
+     y="329.87054" />
+  <rect
+     Title="Austrheim"
+     height="10"
+     id="rect1264"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="10.927658"
+     y="329.54581" />
+  <rect
+     Title="Fedje"
+     height="10"
+     id="rect1265"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.003"
+     y="339.54742" />
+  <rect
+     Title="Masfjorden"
+     height="10"
+     id="rect1266"
+     ry="3"
+     style="opacity:0.65700001;fill:#ffffb3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.052006"
+     y="329.5473" />
+  <rect
+     Title="Flora"
+     height="10"
+     id="rect1401"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.119026"
+     y="279.83322" />
+  <rect
+     Title="Gulen"
+     height="10"
+     id="rect1411"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.052006"
+     y="319.54721" />
+  <rect
+     Title="Solund"
+     height="10"
+     id="rect1412"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="21.216324"
+     y="289.78571" />
+  <rect
+     Title="Hyllestad"
+     height="10"
+     id="rect1413"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.093632"
+     y="300.01105" />
+  <rect
+     Title="Høyanger"
+     height="10"
+     id="rect1416"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.216343"
+     y="300.01105" />
+  <rect
+     Title="Vik"
+     height="10"
+     id="rect1417"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.052015"
+     y="319.70224" />
+  <rect
+     Title="Balestrand"
+     height="10"
+     id="rect1418"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.121918"
+     y="319.32593" />
+  <rect
+     Title="Leikanger"
+     height="10"
+     id="rect1419"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.121933"
+     y="319.93347" />
+  <rect
+     Title="Sogndal"
+     height="10"
+     id="rect1420"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.121941"
+     y="319.82297" />
+  <rect
+     Title="Aurland"
+     height="10"
+     id="rect1421"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.052025"
+     y="319.47601" />
+  <rect
+     Title="Lærdal"
+     height="10"
+     id="rect1422"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.052036"
+     y="319.37811" />
+  <rect
+     Title="Årdal"
+     height="10"
+     id="rect1424"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.216377"
+     y="299.90479" />
+  <rect
+     Title="Luster"
+     height="10"
+     id="rect1426"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.216362"
+     y="299.88559" />
+  <rect
+     Title="Askvoll"
+     height="10"
+     id="rect1428"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.216333"
+     y="290.01093" />
+  <rect
+     Title="Fjaler"
+     height="10"
+     id="rect1429"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.216343"
+     y="290.01093" />
+  <rect
+     Title="Gaular"
+     height="10"
+     id="rect1430"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.216354"
+     y="300.03165" />
+  <rect
+     Title="Jølster"
+     height="10"
+     id="rect1431"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.216377"
+     y="289.90466" />
+  <rect
+     Title="Førde"
+     height="10"
+     id="rect1432"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.216362"
+     y="289.86679" />
+  <rect
+     Title="Naustdal"
+     height="10"
+     id="rect1433"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.216354"
+     y="290.03152" />
+  <rect
+     Title="Bremanger"
+     height="10"
+     id="rect1438"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="20.881506"
+     y="299.85941" />
+  <rect
+     Title="Vågsøy"
+     height="10"
+     id="rect1439"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.156677"
+     y="279.66306" />
+  <rect
+     Title="Selje"
+     height="10"
+     id="rect1441"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.119049"
+     y="279.8667" />
+  <rect
+     Title="Eid"
+     height="10"
+     id="rect1443"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.119038"
+     y="279.82272" />
+  <rect
+     Title="Hornindal"
+     height="10"
+     id="rect1444"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.216385"
+     y="299.66327" />
+  <rect
+     Title="Gloppen"
+     height="10"
+     id="rect1445"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="31.119017"
+     y="279.61368" />
+  <rect
+     Title="Stryn"
+     height="10"
+     id="rect1449"
+     ry="3"
+     style="opacity:0.65700001;fill:#fb8072;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.216385"
+     y="309.66339" />
+  <rect
+     Title="Molde"
+     height="10"
+     id="rect1502"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.12575"
+     y="259.73215" />
+  <rect
+     Title="Ålesund"
+     height="10"
+     id="rect1504"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.146675"
+     y="259.66284" />
+  <rect
+     Title="Kristiansund"
+     height="10"
+     id="rect1505"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.233597"
+     y="229.66251" />
+  <rect
+     Title="Vanylven"
+     height="10"
+     id="rect1511"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="51.146652"
+     y="269.5574" />
+  <rect
+     Title="Sande"
+     height="10"
+     id="rect1514"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="41.146645"
+     y="269.70566" />
+  <rect
+     Title="Herøy"
+     height="10"
+     id="rect1515"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="50.945972"
+     y="259.2056" />
+  <rect
+     Title="Ulstein"
+     height="10"
+     id="rect1516"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="71.146675"
+     y="269.66293" />
+  <rect
+     Title="Hareid"
+     height="10"
+     id="rect1517"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.146664"
+     y="259.86649" />
+  <rect
+     Title="Volda"
+     height="10"
+     id="rect1519"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.14915"
+     y="269.73227" />
+  <rect
+     Title="Ørsta"
+     height="10"
+     id="rect1520"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.14917"
+     y="279.69183" />
+  <rect
+     Title="Ørskog"
+     height="10"
+     id="rect1523"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.125679"
+     y="259.66284" />
+  <rect
+     Title="Norddal"
+     height="10"
+     id="rect1524"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.14915"
+     y="269.73227" />
+  <rect
+     Title="Stranda"
+     height="10"
+     id="rect1525"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.125679"
+     y="269.66293" />
+  <rect
+     Title="Stordal"
+     height="10"
+     id="rect1526"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.12574"
+     y="259.73215" />
+  <rect
+     Title="Sykkylven"
+     height="10"
+     id="rect1528"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.125671"
+     y="269.66293" />
+  <rect
+     Title="Skodje"
+     height="10"
+     id="rect1529"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.06956"
+     y="249.79376" />
+  <rect
+     Title="Sula"
+     height="10"
+     id="rect1531"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="70.913857"
+     y="249.66272" />
+  <rect
+     Title="Giske"
+     height="10"
+     id="rect1532"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.125671"
+     y="259.66284" />
+  <rect
+     Title="Haram"
+     height="10"
+     id="rect1534"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="61.146664"
+     y="269.86658" />
+  <rect
+     Title="Vestnes"
+     height="10"
+     id="rect1535"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.05786"
+     y="239.79366" />
+  <rect
+     Title="Rauma"
+     height="10"
+     id="rect1539"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.06958"
+     y="249.79376" />
+  <rect
+     Title="Nesset"
+     height="10"
+     id="rect1543"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.05788"
+     y="239.79366" />
+  <rect
+     Title="Midsund"
+     height="10"
+     id="rect1545"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.06955"
+     y="249.79376" />
+  <rect
+     Title="Sandøy"
+     height="10"
+     id="rect1546"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.069412"
+     y="249.66272" />
+  <rect
+     Title="Aukra"
+     height="10"
+     id="rect1547"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.069427"
+     y="249.66272" />
+  <rect
+     Title="Fræna"
+     height="10"
+     id="rect1548"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.05784"
+     y="249.66272" />
+  <rect
+     Title="Eide"
+     height="10"
+     id="rect1551"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="81.082809"
+     y="239.66261" />
+  <rect
+     Title="Averøy"
+     height="10"
+     id="rect1554"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.23373"
+     y="219.79343" />
+  <rect
+     Title="Gjemnes"
+     height="10"
+     id="rect1557"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.05785"
+     y="239.79366" />
+  <rect
+     Title="Tingvoll"
+     height="10"
+     id="rect1560"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="91.082825"
+     y="239.66261" />
+  <rect
+     Title="Sunndal"
+     height="10"
+     id="rect1563"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.06956"
+     y="249.79376" />
+  <rect
+     Title="Surnadal"
+     height="10"
+     id="rect1566"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.05784"
+     y="239.66261" />
+  <rect
+     Title="Rindal"
+     height="10"
+     id="rect1567"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.05788"
+     y="239.79366" />
+  <rect
+     Title="Halsa"
+     height="10"
+     id="rect1571"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.23373"
+     y="229.79353" />
+  <rect
+     Title="Smøla"
+     height="10"
+     id="rect1573"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.02919"
+     y="219.66238" />
+  <rect
+     Title="Aure"
+     height="10"
+     id="rect1576"
+     ry="3"
+     style="opacity:0.65700001;fill:#80b1d3;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="101.2337"
+     y="229.66251" />
+  <rect
+     Title="Trondheim"
+     height="10"
+     id="rect1601"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.3141"
+     y="229.79353" />
+  <rect
+     Title="Hemne"
+     height="10"
+     id="rect1612"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.02926"
+     y="209.79332" />
+  <rect
+     Title="Snillfjord"
+     height="10"
+     id="rect1613"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="110.94675"
+     y="199.79321" />
+  <rect
+     Title="Hitra"
+     height="10"
+     id="rect1617"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="111.08588"
+     y="189.79309" />
+  <rect
+     Title="Frøya"
+     height="10"
+     id="rect1620"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.08589"
+     y="189.79309" />
+  <rect
+     Title="Ørland"
+     height="10"
+     id="rect1621"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.08591"
+     y="189.79309" />
+  <rect
+     Title="Agdenes"
+     height="10"
+     id="rect1622"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.02927"
+     y="209.79332" />
+  <rect
+     Title="Rissa"
+     height="10"
+     id="rect1624"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.11483"
+     y="199.79321" />
+  <rect
+     Title="Bjugn"
+     height="10"
+     id="rect1627"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="140.8568"
+     y="169.69617" />
+  <rect
+     Title="Åfjord"
+     height="10"
+     id="rect1630"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.32742"
+     y="179.76912" />
+  <rect
+     Title="Roan"
+     height="10"
+     id="rect1632"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="130.85678"
+     y="169.69617" />
+  <rect
+     Title="Osen"
+     height="10"
+     id="rect1633"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.30048"
+     y="179.76912" />
+  <rect
+     Title="Oppdal"
+     height="10"
+     id="rect1634"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.31412"
+     y="229.77846" />
+  <rect
+     Title="Rennebu"
+     height="10"
+     id="rect1635"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.34239"
+     y="219.77835" />
+  <rect
+     Title="Meldal"
+     height="10"
+     id="rect1636"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.11484"
+     y="199.79321" />
+  <rect
+     Title="Orkdal"
+     height="10"
+     id="rect1638"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="121.34238"
+     y="219.79343" />
+  <rect
+     Title="Røros"
+     height="10"
+     id="rect1640"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.05789"
+     y="239.87727" />
+  <rect
+     Title="Holtålen"
+     height="10"
+     id="rect1644"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.05789"
+     y="239.77856" />
+  <rect
+     Title="Midtre Gauldal"
+     height="10"
+     id="rect1648"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.31412"
+     y="229.79353" />
+  <rect
+     Title="Melhus"
+     height="10"
+     id="rect1653"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.02928"
+     y="209.77823" />
+  <rect
+     Title="Skaun"
+     height="10"
+     id="rect1657"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.02928"
+     y="209.77823" />
+  <rect
+     Title="Klæbu"
+     height="10"
+     id="rect1662"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.34241"
+     y="219.77835" />
+  <rect
+     Title="Malvik"
+     height="10"
+     id="rect1663"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.11485"
+     y="199.79321" />
+  <rect
+     Title="Selbu"
+     height="10"
+     id="rect1664"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.34241"
+     y="219.77835" />
+  <rect
+     Title="Tydal"
+     height="10"
+     id="rect1665"
+     ry="3"
+     style="opacity:0.65700001;fill:#fdb462;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.31413"
+     y="229.77846" />
+  <rect
+     Title="Steinkjer"
+     height="10"
+     id="rect1702"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.08592"
+     y="189.79309" />
+  <rect
+     Title="Namsos"
+     height="10"
+     id="rect1703"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.05704"
+     y="160.11052" />
+  <rect
+     Title="Meråker"
+     height="10"
+     id="rect1711"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.34242"
+     y="210.00259" />
+  <rect
+     Title="Stjørdal"
+     height="10"
+     id="rect1714"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.0293"
+     y="209.77823" />
+  <rect
+     Title="Frosta"
+     height="10"
+     id="rect1717"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.11487"
+     y="199.65079" />
+  <rect
+     Title="Leksvik"
+     height="10"
+     id="rect1718"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="140.84258"
+     y="179.94496" />
+  <rect
+     Title="Levanger"
+     height="10"
+     id="rect1719"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.11487"
+     y="199.79321" />
+  <rect
+     Title="Verdal"
+     height="10"
+     id="rect1721"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.08591"
+     y="189.79309" />
+  <rect
+     Title="Verran"
+     height="10"
+     id="rect1724"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.24887"
+     y="179.89188" />
+  <rect
+     Title="Namdalseid"
+     height="10"
+     id="rect1725"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.55412"
+     y="180.05217" />
+  <rect
+     Title="Inderøy"
+     height="10"
+     id="rect1756"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.08594"
+     y="189.65068" />
+  <rect
+     Title="Snåsa"
+     height="10"
+     id="rect1736"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.55414"
+     y="179.98587" />
+  <rect
+     Title="Lierne"
+     height="10"
+     id="rect1738"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.55414"
+     y="169.98576" />
+  <rect
+     Title="Røyrvik"
+     height="10"
+     id="rect1739"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="180.64415"
+     y="150.01773" />
+  <rect
+     Title="Namsskogan"
+     height="10"
+     id="rect1740"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="170.68649"
+     y="149.97081" />
+  <rect
+     Title="Grong"
+     height="10"
+     id="rect1742"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.55412"
+     y="170.05206" />
+  <rect
+     Title="Høylandet"
+     height="10"
+     id="rect1743"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.11353"
+     y="159.98566" />
+  <rect
+     Title="Overhalla"
+     height="10"
+     id="rect1744"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.05678"
+     y="169.89177" />
+  <rect
+     Title="Fosnes"
+     height="10"
+     id="rect1748"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.11351"
+     y="159.97092" />
+  <rect
+     Title="Flatanger"
+     height="10"
+     id="rect1749"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="130.8266"
+     y="159.94473" />
+  <rect
+     Title="Vikna"
+     height="10"
+     id="rect1750"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="131.01636"
+     y="149.94463" />
+  <rect
+     Title="Nærøy"
+     height="10"
+     id="rect1751"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.49535"
+     y="150.11041" />
+  <rect
+     Title="Leka"
+     height="10"
+     id="rect1755"
+     ry="3"
+     style="opacity:0.65700001;fill:#b3de69;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.01637"
+     y="140.11029" />
+  <rect
+     Title="Bodø"
+     height="10"
+     id="rect1804"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.24397"
+     y="109.72988" />
+  <rect
+     Title="Narvik"
+     height="10"
+     id="rect1805"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="211.2027"
+     y="79.43898" />
+  <rect
+     Title="Bindal"
+     height="10"
+     id="rect1811"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.56567"
+     y="149.92659" />
+  <rect
+     Title="Sømna"
+     height="10"
+     id="rect1812"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.49536"
+     y="159.91714" />
+  <rect
+     Title="Brønnøy"
+     height="10"
+     id="rect1813"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.56566"
+     y="149.91704" />
+  <rect
+     Title="Vega"
+     height="10"
+     id="rect1815"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.23416"
+     y="139.89145" />
+  <rect
+     Title="Vevelstad"
+     height="10"
+     id="rect1816"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.23418"
+     y="139.91693" />
+  <rect
+     Title="Herøy"
+     height="10"
+     id="rect1818"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.29095"
+     y="129.91681" />
+  <rect
+     Title="Alstahaug"
+     height="10"
+     id="rect1820"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="151.08749"
+     y="129.89133" />
+  <rect
+     Title="Leirfjord"
+     height="10"
+     id="rect1822"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.08751"
+     y="129.81064" />
+  <rect
+     Title="Vefsn"
+     height="10"
+     id="rect1824"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="181.29097"
+     y="129.97058" />
+  <rect
+     Title="Grane"
+     height="10"
+     id="rect1825"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.23418"
+     y="139.9707" />
+  <rect
+     Title="Hattfjelldal"
+     height="10"
+     id="rect1826"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="181.23419"
+     y="140.01761" />
+  <rect
+     Title="Dønna"
+     height="10"
+     id="rect1827"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="141.08743"
+     y="129.84676" />
+  <rect
+     Title="Nesna"
+     height="10"
+     id="rect1828"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="191.08755"
+     y="119.81265" />
+  <rect
+     Title="Hemnes"
+     height="10"
+     id="rect1832"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="191.29253"
+     y="130.13686" />
+  <rect
+     Title="Rana"
+     height="10"
+     id="rect1833"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.08757"
+     y="119.43339" />
+  <rect
+     Title="Lurøy"
+     height="10"
+     id="rect1834"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="181.08754"
+     y="119.89059" />
+  <rect
+     Title="Træna"
+     height="10"
+     id="rect1835"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="150.96309"
+     y="119.84664" />
+  <rect
+     Title="Rødøy"
+     height="10"
+     id="rect1836"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="160.9631"
+     y="119.81052" />
+  <rect
+     Title="Meløy"
+     height="10"
+     id="rect1837"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.08752"
+     y="119.9167" />
+  <rect
+     Title="Gildeskål"
+     height="10"
+     id="rect1838"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.24399"
+     y="109.65957" />
+  <rect
+     Title="Beiarn"
+     height="10"
+     id="rect1839"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="180.81456"
+     y="109.49976" />
+  <rect
+     Title="Saltdal"
+     height="10"
+     id="rect1840"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="191.16624"
+     y="109.68875" />
+  <rect
+     Title="Fauske"
+     height="10"
+     id="rect1841"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.16626"
+     y="109.40578" />
+  <rect
+     Title="Sørfold"
+     height="10"
+     id="rect1845"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.20714"
+     y="99.490479" />
+  <rect
+     Title="Steigen"
+     height="10"
+     id="rect1848"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="191.20712"
+     y="99.490479" />
+  <rect
+     Title="Hamarøy"
+     height="10"
+     id="rect1849"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="181.26662"
+     y="89.490364" />
+  <rect
+     Title="Tysfjord"
+     height="10"
+     id="rect1850"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="191.26663"
+     y="89.490364" />
+  <rect
+     Title="Lødingen"
+     height="10"
+     id="rect1851"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.26665"
+     y="89.490364" />
+  <rect
+     Title="Tjeldsund"
+     height="10"
+     id="rect1852"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="181.20267"
+     y="79.490257" />
+  <rect
+     Title="Evenes"
+     height="10"
+     id="rect1853"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.2027"
+     y="79.490257" />
+  <rect
+     Title="Ballangen"
+     height="10"
+     id="rect1854"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="211.29048"
+     y="89.439095" />
+  <rect
+     Title="Røst"
+     height="10"
+     id="rect1856"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="150.9175"
+     y="109.84653" />
+  <rect
+     Title="Værøy"
+     height="10"
+     id="rect1857"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.45778"
+     y="99.599426" />
+  <rect
+     Title="Flakstad"
+     height="10"
+     id="rect1859"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="181.16632"
+     y="99.490479" />
+  <rect
+     Title="Vestvågøy"
+     height="10"
+     id="rect1860"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="161.20265"
+     y="89.599312" />
+  <rect
+     Title="Vågan"
+     height="10"
+     id="rect1865"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.20267"
+     y="89.443359" />
+  <rect
+     Title="Hadsel"
+     height="10"
+     id="rect1866"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="170.96239"
+     y="79.443245" />
+  <rect
+     Title="Bø"
+     height="10"
+     id="rect1867"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.30861"
+     y="69.277565" />
+  <rect
+     Title="Øksnes"
+     height="10"
+     id="rect1868"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.30861"
+     y="59.277458" />
+  <rect
+     Title="Sortland"
+     height="10"
+     id="rect1870"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="181.30862"
+     y="69.277565" />
+  <rect
+     Title="Andøy"
+     height="10"
+     id="rect1871"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="180.95851"
+     y="49.277348" />
+  <rect
+     Title="Moskenes"
+     height="10"
+     id="rect1874"
+     ry="3"
+     style="opacity:0.65700001;fill:#fccde5;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="171.51799"
+     y="99.443466" />
+  <rect
+     Title="Harstad"
+     height="10"
+     id="rect1903"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="191.30864"
+     y="59.490036" />
+  <rect
+     Title="Tromsø"
+     height="10"
+     id="rect1902"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.09496"
+     y="29.243549" />
+  <rect
+     Title="Kvæfjord"
+     height="10"
+     id="rect1911"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="181.30862"
+     y="59.277458" />
+  <rect
+     Title="Skånland"
+     height="10"
+     id="rect1913"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="191.20268"
+     y="79.490257" />
+  <rect
+     Title="Ibestad"
+     height="10"
+     id="rect1917"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="211.30867"
+     y="59.438763" />
+  <rect
+     Title="Gratangen"
+     height="10"
+     id="rect1919"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="191.30864"
+     y="69.490143" />
+  <rect
+     Title="Lavangen"
+     height="10"
+     id="rect1920"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.30865"
+     y="69.438873" />
+  <rect
+     Title="Bardu"
+     height="10"
+     id="rect1922"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="221.30869"
+     y="59.726341" />
+  <rect
+     Title="Salangen"
+     height="10"
+     id="rect1923"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="211.30867"
+     y="69.438873" />
+  <rect
+     Title="Målselv"
+     height="10"
+     id="rect1924"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="221.83795"
+     y="49.355541" />
+  <rect
+     Title="Sørreisa"
+     height="10"
+     id="rect1925"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="211.83794"
+     y="49.355541" />
+  <rect
+     Title="Dyrøy"
+     height="10"
+     id="rect1926"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="191.30855"
+     y="49.614304" />
+  <rect
+     Title="Tranøy"
+     height="10"
+     id="rect1927"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.83774"
+     y="49.243771" />
+  <rect
+     Title="Torsken"
+     height="10"
+     id="rect1928"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.41498"
+     y="39.24366" />
+  <rect
+     Title="Berg"
+     height="10"
+     id="rect1929"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="211.40079"
+     y="39.216888" />
+  <rect
+     Title="Lenvik"
+     height="10"
+     id="rect1931"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.30865"
+     y="59.438763" />
+  <rect
+     Title="Balsfjord"
+     height="10"
+     id="rect1933"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="231.83797"
+     y="49.931381" />
+  <rect
+     Title="Karlsøy"
+     height="10"
+     id="rect1936"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="201.11768"
+     y="19.243441" />
+  <rect
+     Title="Lyngen"
+     height="10"
+     id="rect1938"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="211.11787"
+     y="29.216778" />
+  <rect
+     Title="Storfjord"
+     height="10"
+     id="rect1939"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="221.51987"
+     y="39.355431" />
+  <rect
+     Title="Kåfjord"
+     height="10"
+     id="rect1940"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="221.36935"
+     y="29.35532" />
+  <rect
+     Title="Skjervøy"
+     height="10"
+     id="rect1941"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="221.11789"
+     y="19.355209" />
+  <rect
+     Title="Nordreisa"
+     height="10"
+     id="rect1942"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="211.11787"
+     y="19.216669" />
+  <rect
+     Title="Kvænangen"
+     height="10"
+     id="rect1943"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="231.83797"
+     y="39.931271" />
+  <rect
+     Title="Vardø"
+     height="10"
+     id="rect2002"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="281.36942"
+     y="9.5724545" />
+  <rect
+     Title="Vadsø"
+     height="10"
+     id="rect2003"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="281.36942"
+     y="19.572565" />
+  <rect
+     Title="Hammerfest"
+     height="10"
+     id="rect2004"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="231.1813"
+     y="9.9309416" />
+  <rect
+     Title="Kautokeino"
+     height="10"
+     id="rect2011"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="231.51997"
+     y="29.931162" />
+  <rect
+     Title="Alta"
+     height="10"
+     id="rect2012"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="231.36937"
+     y="19.931051" />
+  <rect
+     Title="Loppa"
+     height="10"
+     id="rect2014"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="221.18129"
+     y="9.3550997" />
+  <rect
+     Title="Hasvik"
+     height="10"
+     id="rect2015"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="231.21658"
+     y="0" />
+  <rect
+     Title="Kvalsund"
+     height="10"
+     id="rect2017"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="241.36937"
+     y="19.796667" />
+  <rect
+     Title="Måsøy"
+     height="10"
+     id="rect2018"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="241.2166"
+     y="0" />
+  <rect
+     Title="Nordkapp"
+     height="10"
+     id="rect2019"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="251.2166"
+     y="0" />
+  <rect
+     Title="Porsanger"
+     height="10"
+     id="rect2020"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="241.18132"
+     y="9.7965565" />
+  <rect
+     Title="Karasjok"
+     height="10"
+     id="rect2021"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="251.36938"
+     y="9.9438868" />
+  <rect
+     Title="Lebesby"
+     height="10"
+     id="rect2022"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="261.21661"
+     y="0" />
+  <rect
+     Title="Gamvik"
+     height="10"
+     id="rect2023"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="271.21664"
+     y="0" />
+  <rect
+     Title="Berlevåg"
+     height="10"
+     id="rect2024"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="261.36938"
+     y="9.9013805" />
+  <rect
+     Title="Tana"
+     height="10"
+     id="rect2025"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="261.36938"
+     y="19.901491" />
+  <rect
+     Title="Nesseby"
+     height="10"
+     id="rect2027"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="271.36942"
+     y="19.865631" />
+  <rect
+     Title="Båtsfjord"
+     height="10"
+     id="rect2028"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="271.36942"
+     y="9.8655214" />
+  <rect
+     Title="Sør-Varanger"
+     height="10"
+     id="rect2030"
+     ry="3"
+     style="opacity:0.65700001;fill:#bc80bd;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     width="10"
+     x="281.36942"
+     y="29.572676" />
+</svg>

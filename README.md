@@ -5,6 +5,8 @@ Examples:
 
 ![Examples](https://raw.githubusercontent.com/Prooffreader/chorogrid/master/examples.png "Examples")
 
+![Examples](https://raw.githubusercontent.com/Prooffreader/chorogrid/master/examples_no.png "Examples_no")
+
 There are two classes, Chorobin to assign colors to quantities, and Chorogrid to make the maps.
 
 Maps are made in SVG format; if you need to convert them to PNG you can do so in an external application like Inkscape or Adobe Illustrator, or in python with CairoSVG among other solutions.

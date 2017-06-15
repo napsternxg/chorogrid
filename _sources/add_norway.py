@@ -60,7 +60,8 @@ for k in range(len(attributes)):
     table.append(row)
 
 df = pd.DataFrame(table)
-df.columns = ["kommuneid", "Navn", "map_path", "fylkesnummer", "lat", "long", "geoname_id", "folketal"]
+print(df.head())
+df.columns = ["kommuneid", "abbrev","Navn", "map_path", "fylkesnummer", "lat", "long", "geoname_id", "folketal"]
 df["square_x"] = ""
 df["square_y"] = ""
 print(df.head())
@@ -120,7 +121,8 @@ def nice_grid():
 
     import lxml.etree as ET
 
-    _file = 'grid5_plain_final.svg'
+    # this is the file that can be manually moved into the shape of norway.
+    _file = 'grid5_plain_final_fixed_titles.svg'
     for event, elem in ET.iterparse(_file):
 
         if elem.tag == "{http://www.w3.org/2000/svg}rect":
@@ -135,7 +137,7 @@ def nice_grid():
                         x = round(float(value) / WIDTH, 0)
                     else:
                         y = round(float(value) / HEIGTH, 0)
-
+            #print(kom, x, y)
             df.loc[df.kommuneid == kom, "square_y"] = y
             df.loc[df.kommuneid == kom, "square_x"] = x
             # df_grid = df_grid.append({
@@ -143,6 +145,28 @@ def nice_grid():
             #          "x":  x,
             #          "y": y
             #           }, ignore_index=True)
+
+
+def add_kommunenavn_to_svg():
+    """aux function to add kommune navn as title to svg"""
+    import xml.etree.ElementTree as ET
+    with open('_sources/grid5_plain_final_fixed.svg','r') as f:
+        tree = ET.parse(f)
+        root = tree.getroot()
+        for child in root:
+            if child.tag == "{http://www.w3.org/2000/svg}rect":
+                kommune_nr = int(child.attrib['id'].split("rect")[1])
+                kommune_navn = df.loc[df.Kommunenummer == kommune_nr, "Norsk"].tolist()[0]
+                #print("kommunenr: ", kommune_nr, kommune_navn)
+                child.set('Title',kommune_navn)
+                #print() # , "Norsk".tolist()[0]
+                #print()
+                #print(child, child.attrib)
+            #print(child.tag, child.text)
+            #print(child.keys(), child.items())
+            print()
+        #tree.write('_sources/grid5_plain_final_fixed_titles.svg')
+
 
 def hex_grid():
     """https://github.com/Prooffreader/chorogrid/issues/6

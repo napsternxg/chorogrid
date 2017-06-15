@@ -41,7 +41,7 @@ class Chorogrid(object):
     """
     def __init__(self, csv_path, ids, colors, id_column='abbrev', lable_column=None):
         self.df = pd.read_csv(csv_path)
-        comparison_set = set(self.df[id_column])
+        comparison_set = set(self.df[id_column]) # this is a problem in norway if abbrev is used..
         invalid = set(ids).difference(comparison_set)
         missing = comparison_set.difference(set(ids))
         if len(invalid) > 0:
@@ -762,7 +762,9 @@ class Chorogrid(object):
                               x=str(x+w/2),
                               y=str(y + spacing_dict['name_y_offset']),
                               style=this_font_style)
-            _.text =str(id_)
+            _.text =str(self.df.loc[self.df[self.id_column] == id_][self.lable_column].item())
+            #[:3] Do not get string, here but the ids...
+            #str(id_)
         if self.legend_params is not None and len(self.legend_params) > 0:
             self.legendsvg = ET.SubElement(self.svg, "g", transform=
                     "translate({} {})".format(total_width -
