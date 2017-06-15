@@ -5,7 +5,7 @@ Examples:
 
 ![Examples](https://raw.githubusercontent.com/Prooffreader/chorogrid/master/examples.png "Examples")
 
-![Examples](https://raw.githubusercontent.com/Prooffreader/chorogrid/master/examples_no.png "Examples_no")
+![Examples](https://raw.githubusercontent.com/eiriks/chorogrid/master/examples_no.png "Examples_no")
 
 There are two classes, Chorobin to assign colors to quantities, and Chorogrid to make the maps.
 
