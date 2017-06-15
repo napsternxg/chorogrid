@@ -3,8 +3,11 @@ A python script to produce choropleths and colored square- and hex-grid maps
 
 Examples:
 
+USA, Canada, Europe
 ![Examples](https://raw.githubusercontent.com/Prooffreader/chorogrid/master/examples.png "Examples")
 
+
+Norway. Plain, in squares and as hex.
 ![Examples](https://raw.githubusercontent.com/eiriks/chorogrid/master/examples_no.png "Examples_no")
 
 There are two classes, Chorobin to assign colors to quantities, and Chorogrid to make the maps.
