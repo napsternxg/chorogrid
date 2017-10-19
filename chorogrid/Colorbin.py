@@ -1,6 +1,8 @@
 #!/usr/bin/python
 # Filename: Colorbin.py
 
+from __future__ import absolute_import, division, print_function, unicode_literals
+
 class Colorbin(object):
     """ Instantiate with a list of quantities and colors, then retrieve 
         the following attributes:
